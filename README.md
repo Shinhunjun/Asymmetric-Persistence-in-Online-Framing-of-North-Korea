@@ -54,19 +54,6 @@ Analysis outputs are consolidated into categorized JSON/Markdown files:
 
 ## Retrieving Original Text
 
-To retrieve original post text for analysis, use the **Arctic Shift** archive or Reddit API with the preserved post IDs.
+To retrieve original post text for analysis, use the **Arctic Shift** archive with the preserved post IDs.
 
 1. **Arctic Shift**: We used the [Arctic Shift API/Archive](https://github.com/ArthurHeitmann/arctic_shift) to collect historical data. Original text can be retrieved by querying their archives using the `post_id`.
-2. **Reddit API** (current data):
-
-   ```
-   https://www.reddit.com/api/info.json?id=t3_{post_id}
-   ```
-
-## Citation
-
-If you use this data, please cite:
-
-```
-[Paper citation to be added after publication]
-```
