@@ -14,9 +14,9 @@ This folder contains anonymized versions of the research data and reproduction s
 
 | Filename | Description | Rows |
 |----------|-------------|------|
-| **`human_ground_truth.csv`** | Consolidated human annotations (Pilot + Batch 1 + Batch 2). | 499 |
-| **`validation_results.csv`** | Model validation results comparing LLM predictions with human labels. | 501 |
-| **`CODEBOOK.md`** | Detailed definitions of the framing categories and annotation guidelines. | - |
+| **`human_ground_truth.csv`** | Consolidated human annotations (Pilot + Batch 1 + Batch 2). | 498 |
+| **`validation_results.csv`** | Model validation results comparing LLM predictions with human labels. | 498 |
+| **`CODEBOOK.md`** | Detailed definitions of the framing categories and annotation guidelines (English). | - |
 
 ### 3. Analysis Results (`results/`)
 
@@ -54,14 +54,9 @@ Analysis outputs are consolidated into categorized JSON/Markdown files:
 
 ## Retrieving Original Text
 
-To retrieve original post text for analysis, use the Reddit post IDs with:
+To retrieve original post text for analysis, use the **Arctic Shift** archive or Reddit API with the preserved post IDs.
 
-1. **Pushshift API** (archived data):
-
-   ```
-   https://api.pushshift.io/reddit/submission/search?ids={post_id}
-   ```
-
+1. **Arctic Shift**: We used the [Arctic Shift API/Archive](https://github.com/ArthurHeitmann/arctic_shift) to collect historical data. Original text can be retrieved by querying their archives using the `post_id`.
 2. **Reddit API** (current data):
 
    ```
