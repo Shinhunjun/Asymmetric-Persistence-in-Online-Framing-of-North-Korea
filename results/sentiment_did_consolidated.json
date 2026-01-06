@@ -1,0 +1,19 @@
+{
+  "sentiment_comparison_results": {
+    "posts": {
+      "period1_mean": -0.4750229984521866,
+      "period2_mean": -0.24521414396221652,
+      "difference": 0.22980885448997007,
+      "p_value_ttest": 0.0004942557045668834,
+      "p_value_mannwhitney": 0.00038368728405709714,
+      "cohens_d": 0.26423547220980714
+    },
+    "comments": {
+      "period1_mean": -0.5462165177741042,
+      "period2_mean": -0.4717913212137396,
+      "difference": 0.07442519656036456,
+      "p_value_mannwhitney": 3.615490133081415e-06,
+      "cohens_d": 0.09098523476507124
+    }
+  }
+}
