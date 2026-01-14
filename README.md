@@ -1,78 +1,142 @@
-# Anonymized Data for Reproducibility
+# Asymmetric Persistence in Online Framing of North Korea
 
-This folder contains anonymized versions of the research data and reproduction scripts for public sharing.
+Anonymized replication package for ICWSM 2025 submission.
 
-## Data Structure
+## 📁 Repository Structure
 
-### 1. Main Dataset (`final/`)
-
-| Filename | Description | Rows |
-|----------|-------------|------|
-| **`final_dataset.csv`** | Complete merged dataset for DiD analysis. Includes North Korea (Treatment) and China, Iran, Russia (Controls). Contains framing labels, sentiment scores, and metadata. | 34,929 |
-| **`comment_ids.csv`** | All comment IDs (recursive) with parent post IDs, timestamp, and country. Use for Arctic Shift text retrieval. | 255,391 |
-
-### 2. Annotations (`annotations/`)
-
-| Filename | Description | Rows |
-|----------|-------------|------|
-| **`human_ground_truth.csv`** | Consolidated human annotations (Pilot + Batch 1 + Batch 2). | 500 |
-| **`validation_results.csv`** | Model validation results comparing LLM predictions with human labels. | 500 |
-| **`CODEBOOK.md`** | Detailed definitions of the framing categories and annotation guidelines. | - |
-
-### 3. Analysis Results (`results/`)
-
-| Filename | Description |
-|----------|-------------|
-| **`cross_llm_framing.csv`** | Cross-LLM validation results: GPT-4o-mini, GPT-4o, Claude Sonnet 4.5, Claude Haiku 4.5, Llama 3.3 70B, Llama 3.1 8B (N=500) |
-| **`did_results_main.json`** | Core Difference-in-Differences analysis results |
-| **`framing_did_consolidated.json`** | Detailed DiD statistics for Framing |
-| **`sentiment_did_consolidated.json`** | Detailed DiD statistics for Sentiment |
-| **`graphrag_analysis_results.json`** | Results from GraphRAG and community detection |
-| **`GRAPHRAG_REPORTS_CONSOLIDATED.md`** | Textual analysis reports |
-
-### 4. GraphRAG Configuration (`graphrag_config/`)
-
-Customized GraphRAG indexing configuration for discourse network analysis:
-
-| File | Description |
-|------|-------------|
-| **`settings.yaml`** | GraphRAG pipeline settings (model config, chunking, etc.) |
-| **`prompts/`** | Customized extraction prompts including entity types: person, country, event, organization, **weapon**, **policy** |
-
-**Key Customization:** Entity types extended to include `WEAPON` (e.g., ICBM, nuclear warhead) and `POLICY` (e.g., denuclearization, maximum pressure) for security domain analysis.
-
-### 5. Reproduction Scripts (`reproduction_scripts/`)
-
-| Script | Description |
-|--------|-------------|
-| **`analyze_did.py`** | Python script to reproduce the main DiD analysis tables |
+```
+.
+├── annotations/          # Human-annotated validation data
+├── final/               # Main datasets (posts + comments)
+├── results/             # Analysis outputs and graph data
+├── graphrag_config/     # Custom GraphRAG configuration
+└── reproduction_scripts/  # Code to reproduce key analyses
+```
 
 ---
 
-## What's Included
+## 📊 Data Files
+
+### 1️⃣ Main Datasets (`final/`)
+
+| File | Description | Rows |
+|------|-------------|------|
+| **final_dataset.csv** | Reddit posts (treatment + controls) with framing labels, sentiment scores | 34,929 |
+| **comment_ids.csv** | Comment IDs (recursive) with metadata for Arctic Shift retrieval | 255,391 |
+
+> **Note:** `final_dataset.csv` contains 34,929 posts (raw). Paper analyses use:
+> - **Table 1 (DiD):** 29,688 posts (after filtering)
+> - **High-confidence:** 27,863 posts (confidence ≥ 0.9)
+
+---
+
+### 2️⃣ Human Validation (`annotations/`)
+
+| File | Description | Rows |
+|------|-------------|------|
+| **human_ground_truth.csv** | Gold-standard annotations (Pilot + Batch 1 + 2) | 500 |
+| **validation_results.csv** | GPT-4o-mini vs human expert comparison | 500 |
+| **CODEBOOK.md** | Framing category definitions and guidelines | - |
+
+---
+
+### 3️⃣ Analysis Results (`results/`)
+
+#### Cross-LLM Validation
+| File | Description | Rows |
+|------|-------------|------|
+| **cross_llm_framing.csv** | 6 models × 500 posts validation | 500 |
+
+Models: GPT-4o-mini, GPT-4o, Claude Sonnet 4.5, Claude Haiku 4.5, Llama 3.3 70B, Llama 3.1 8B
+
+#### DiD & Statistical Analyses
+| File | Description |
+|------|-------------|
+| **did_results_main.json** | Core Difference-in-Differences estimates |
+| **framing_did_consolidated.json** | Detailed framing DiD statistics |
+| **sentiment_did_consolidated.json** | Detailed sentiment DiD statistics |
+
+#### Graph Network Analysis
+
+**Post-level (discourse networks from posts):**
+| File | Description | Rows |
+|------|-------------|------|
+| **post_edge_framing_p1.csv** | Pre-Singapore edges (relationships) | 4,838 |
+| **post_edge_framing_p2.csv** | Singapore-Hanoi edges | 1,838 |
+| **post_edge_framing_p3.csv** | Post-Hanoi edges | 1,530 |
+| **post_community_framing.csv** | Community clusters across periods | 614 |
+
+**Comment-level (discourse networks from comments):**
+| File | Description | Rows |
+|------|-------------|------|
+| **comment_edge_framing_p1.csv** | Pre-Singapore comment edges | 10,730 |
+| **comment_edge_framing_p2.csv** | Singapore-Hanoi comment edges | 3,612 |
+| **comment_edge_framing_p3.csv** | Post-Hanoi comment edges | 4,522 |
+| **comment_community_framing_p1.csv** | Pre-Singapore communities | 746 |
+| **comment_community_framing_p2.csv** | Singapore-Hanoi communities | 231 |
+| **comment_community_framing_p3.csv** | Post-Hanoi communities | 371 |
+
+#### Narrative Reports
+| File | Description |
+|------|-------------|
+| **graphrag_analysis_results.json** | GraphRAG community detection results |
+| **GRAPHRAG_REPORTS_CONSOLIDATED.md** | Textual analysis summaries |
+
+---
+
+### 4️⃣ GraphRAG Configuration (`graphrag_config/`)
+
+Custom configuration for discourse network analysis:
+
+```
+graphrag_config/
+├── settings.yaml           # Pipeline settings (model, chunking, etc.)
+└── prompts/               # 13 custom extraction prompts
+    ├── extract_graph.txt  # Entity extraction (+ WEAPON, POLICY types)
+    └── ...
+```
+
+**Key Customization:** Extended entity types to include `WEAPON` (e.g., ICBM) and `POLICY` (e.g., denuclearization) for security domain analysis.
+
+---
+
+### 5️⃣ Reproduction Scripts (`reproduction_scripts/`)
+
+| Script | Description |
+|--------|-------------|
+| **analyze_did.py** | Reproduce main DiD tables (Framing & Sentiment) |
+
+---
+
+## 📋 What's Included
 
 ✅ **Preserved columns:**
-
-- `id` / `post_id`: Reddit post/comment identifier
+- `id` / `post_id` / `comment_id`: Reddit identifiers
 - `subreddit`, `created_utc`: Metadata
 - `frame`, `frame_confidence`: Framing labels (LLM predicted)
 - `sentiment_score`: Sentiment analysis scores
 - `period`, `country`: Analysis periods and country tags
 
-❌ **Removed columns:**
-
+❌ **Removed columns (anonymization):**
 - `title`, `selftext`, `body`: Original text content
 - `frame_reason`: LLM reasoning text
+- `description`: Edge/community descriptions
 
-## Retrieving Original Text
+---
 
-To retrieve original post/comment text for analysis, use the **Arctic Shift** archive with the preserved IDs.
+## 🔗 Retrieving Original Text
 
-1. **Arctic Shift**: We used the [Arctic Shift API/Archive](https://github.com/ArthurHeitmann/arctic_shift) to collect historical data. Original text can be retrieved by querying their archives using the `post_id` or `id` columns.
+To retrieve original post/comment text, use **Arctic Shift** with the preserved IDs:
 
-## Cross-LLM Validation
+**Arctic Shift:** [https://github.com/ArthurHeitmann/arctic_shift](https://github.com/ArthurHeitmann/arctic_shift)
 
-We validated our primary classifier (GPT-4o-mini) against multiple alternative models on 500 posts:
+Query their archive using `post_id` or `id` columns from the datasets.
+
+---
+
+## 📈 Cross-LLM Validation Summary
+
+Agreement with GPT-4o-mini (N=500):
 
 | Model | Agreement | Cohen's κ |
 |-------|-----------|-----------|
@@ -82,15 +146,4 @@ We validated our primary classifier (GPT-4o-mini) against multiple alternative m
 | Llama 3.3 70B | 81.5% | 0.71 |
 | Llama 3.1 8B | 75.3% | 0.62 |
 
-## Data Filtering Notes
-
-**Important:** The `final_dataset.csv` contains **34,927 posts** (raw collection). 
-
-The paper's analyses use filtered subsets:
-- **Table 1 (DiD Analysis)**: 29,688 posts (after removing incomplete data)
-- **High-Confidence Subset**: 27,863 posts (confidence ≥ 0.9, 94% retention)
-
-To reproduce paper results, filter by:
-1. Valid period assignment
-2. Framing confidence ≥ 0.90 (for primary analyses)
-
+High cross-family consistency (OpenAI, Anthropic, Meta) validates robustness of framing classifications.
