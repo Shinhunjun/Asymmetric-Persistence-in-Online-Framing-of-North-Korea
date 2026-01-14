@@ -1,0 +1,2579 @@
+{
+  "graphrag_comprehensive_analysis": {
+    "network_metrics": {
+      "period1": {
+        "n_nodes": 2656,
+        "n_edges": 4552,
+        "density": 0.0012910398656773988,
+        "avg_degree": 3.427710843373494,
+        "max_degree": 1434,
+        "min_degree": 1,
+        "std_degree": 30.318751656172747,
+        "avg_clustering": 0.2148642932793292,
+        "n_components": 25,
+        "largest_component_size": 2601,
+        "largest_component_pct": 97.92921686746988,
+        "avg_path_length": 2.837201372253275,
+        "diameter": 10
+      },
+      "period2": {
+        "n_nodes": 1043,
+        "n_edges": 1726,
+        "density": 0.003176279851233799,
+        "avg_degree": 3.309683604985618,
+        "max_degree": 447,
+        "min_degree": 1,
+        "std_degree": 16.38021900013598,
+        "avg_clustering": 0.19799198416421468,
+        "n_components": 23,
+        "largest_component_size": 988,
+        "largest_component_pct": 94.7267497603068,
+        "avg_path_length": 2.9651173760916203,
+        "diameter": 9
+      },
+      "period3": {
+        "n_nodes": 879,
+        "n_edges": 1429,
+        "density": 0.003703214203342481,
+        "avg_degree": 3.2514220705346983,
+        "max_degree": 411,
+        "min_degree": 1,
+        "std_degree": 16.3750634428045,
+        "avg_clustering": 0.20975985876771724,
+        "n_components": 16,
+        "largest_component_size": 840,
+        "largest_component_pct": 95.56313993174061,
+        "avg_path_length": 2.867404506498666,
+        "diameter": 7
+      }
+    },
+    "centrality": {
+      "period1": {
+        "degree_top": [
+          [
+            "NORTH KOREA",
+            0.5401129943502825
+          ],
+          [
+            "TRUMP",
+            0.12730696798493407
+          ],
+          [
+            "SOUTH KOREA",
+            0.11374764595103579
+          ],
+          [
+            "KIM JONG UN",
+            0.07382297551789077
+          ],
+          [
+            "DONALD TRUMP",
+            0.07269303201506591
+          ],
+          [
+            "UNITED STATES",
+            0.054613935969868174
+          ],
+          [
+            "KIM JONG-UN",
+            0.0519774011299435
+          ],
+          [
+            "CHINA",
+            0.045574387947269306
+          ],
+          [
+            "US",
+            0.04293785310734463
+          ],
+          [
+            "DPRK",
+            0.031638418079096044
+          ]
+        ],
+        "betweenness_top": [
+          [
+            "NORTH KOREA",
+            0.7446385904795295
+          ],
+          [
+            "TRUMP",
+            0.12431107588195499
+          ],
+          [
+            "SOUTH KOREA",
+            0.09541797495347008
+          ],
+          [
+            "DONALD TRUMP",
+            0.072295511677402
+          ],
+          [
+            "KIM JONG UN",
+            0.03777970485018722
+          ],
+          [
+            "CHINA",
+            0.036485329936494636
+          ],
+          [
+            "UNITED STATES",
+            0.03607656542279905
+          ],
+          [
+            "KIM JONG-UN",
+            0.025201006225518303
+          ],
+          [
+            "RUSSIA",
+            0.0241146165204297
+          ],
+          [
+            "MATTIS",
+            0.02137037590709427
+          ]
+        ],
+        "pagerank_top": [
+          [
+            "NORTH KOREA",
+            0.25337600631847756
+          ],
+          [
+            "SOUTH KOREA",
+            0.04890456955282718
+          ],
+          [
+            "TRUMP",
+            0.042695012842642474
+          ],
+          [
+            "KIM JONG UN",
+            0.031228941217705173
+          ],
+          [
+            "DONALD TRUMP",
+            0.02101719617428918
+          ],
+          [
+            "UNITED STATES",
+            0.01914635444410049
+          ],
+          [
+            "CHINA",
+            0.018088962723936765
+          ],
+          [
+            "KIM JONG-UN",
+            0.01748716577523533
+          ],
+          [
+            "US",
+            0.013130842490865182
+          ],
+          [
+            "RUSSIA",
+            0.011712060964683815
+          ]
+        ],
+        "eigenvector_top": [
+          [
+            "NORTH KOREA",
+            0.6288463887895736
+          ],
+          [
+            "TRUMP",
+            0.15074738793953638
+          ],
+          [
+            "SOUTH KOREA",
+            0.14738181778680134
+          ],
+          [
+            "KIM JONG UN",
+            0.11867820052311855
+          ],
+          [
+            "DONALD TRUMP",
+            0.1106480402508335
+          ],
+          [
+            "UNITED STATES",
+            0.09935685381901656
+          ],
+          [
+            "KIM JONG-UN",
+            0.09048274145474895
+          ],
+          [
+            "US",
+            0.0891906552884518
+          ],
+          [
+            "CHINA",
+            0.08051214490147743
+          ],
+          [
+            "DPRK",
+            0.0765633445270289
+          ]
+        ]
+      },
+      "period2": {
+        "degree_top": [
+          [
+            "NORTH KOREA",
+            0.42898272552783107
+          ],
+          [
+            "TRUMP",
+            0.15930902111324374
+          ],
+          [
+            "SOUTH KOREA",
+            0.11420345489443377
+          ],
+          [
+            "KIM JONG UN",
+            0.10268714011516314
+          ],
+          [
+            "DONALD TRUMP",
+            0.08061420345489444
+          ],
+          [
+            "US",
+            0.051823416506717845
+          ],
+          [
+            "SINGAPORE SUMMIT",
+            0.04990403071017274
+          ],
+          [
+            "DENUCLEARIZATION",
+            0.04894433781190019
+          ],
+          [
+            "KIM JONG-UN",
+            0.04798464491362764
+          ],
+          [
+            "UNITED STATES",
+            0.044145873320537425
+          ]
+        ],
+        "betweenness_top": [
+          [
+            "NORTH KOREA",
+            0.5773206817590745
+          ],
+          [
+            "TRUMP",
+            0.20519961975380183
+          ],
+          [
+            "SOUTH KOREA",
+            0.11425207907208704
+          ],
+          [
+            "KIM JONG UN",
+            0.07416514777980049
+          ],
+          [
+            "US",
+            0.051565678659567835
+          ],
+          [
+            "KIM JONG-UN",
+            0.04792489701810517
+          ],
+          [
+            "SINGAPORE SUMMIT",
+            0.04410808696342889
+          ],
+          [
+            "DONALD TRUMP",
+            0.03572492356899397
+          ],
+          [
+            "JAPAN",
+            0.03429042095449002
+          ],
+          [
+            "KOREA",
+            0.03179257749905232
+          ]
+        ],
+        "pagerank_top": [
+          [
+            "NORTH KOREA",
+            0.1886738004684876
+          ],
+          [
+            "TRUMP",
+            0.06023323984218048
+          ],
+          [
+            "KIM JONG UN",
+            0.04882222463816606
+          ],
+          [
+            "SOUTH KOREA",
+            0.039270808256852
+          ],
+          [
+            "DONALD TRUMP",
+            0.02821993728570376
+          ],
+          [
+            "DENUCLEARIZATION",
+            0.02154322942636049
+          ],
+          [
+            "KIM JONG-UN",
+            0.01986366944475863
+          ],
+          [
+            "SINGAPORE SUMMIT",
+            0.01722831553003961
+          ],
+          [
+            "US",
+            0.014534607733009276
+          ],
+          [
+            "UNITED STATES",
+            0.014113252428842033
+          ]
+        ],
+        "eigenvector_top": [
+          [
+            "NORTH KOREA",
+            0.5567080160510942
+          ],
+          [
+            "TRUMP",
+            0.23877550609804205
+          ],
+          [
+            "KIM JONG UN",
+            0.19032099814013184
+          ],
+          [
+            "SOUTH KOREA",
+            0.18762822509723454
+          ],
+          [
+            "DONALD TRUMP",
+            0.1538435510981672
+          ],
+          [
+            "DENUCLEARIZATION",
+            0.13196969304982223
+          ],
+          [
+            "UNITED STATES",
+            0.11991301864287555
+          ],
+          [
+            "US",
+            0.10608261914885785
+          ],
+          [
+            "TRUMP-KIM SUMMIT",
+            0.10418879228793318
+          ],
+          [
+            "KIM JONG-UN",
+            0.10398195216175958
+          ]
+        ]
+      },
+      "period3": {
+        "degree_top": [
+          [
+            "NORTH KOREA",
+            0.46810933940774485
+          ],
+          [
+            "TRUMP",
+            0.1674259681093394
+          ],
+          [
+            "KIM JONG UN",
+            0.1378132118451025
+          ],
+          [
+            "DONALD TRUMP",
+            0.13211845102505695
+          ],
+          [
+            "KIM JONG-UN",
+            0.09453302961275625
+          ],
+          [
+            "SOUTH KOREA",
+            0.08314350797266515
+          ],
+          [
+            "US",
+            0.04100227790432802
+          ],
+          [
+            "TRUMP ADMINISTRATION",
+            0.04100227790432802
+          ],
+          [
+            "UNITED STATES",
+            0.03872437357630979
+          ],
+          [
+            "CHINA",
+            0.03302961275626424
+          ]
+        ],
+        "betweenness_top": [
+          [
+            "NORTH KOREA",
+            0.6173959638398746
+          ],
+          [
+            "TRUMP",
+            0.1292255072897994
+          ],
+          [
+            "KIM JONG UN",
+            0.11403846417159715
+          ],
+          [
+            "KIM JONG-UN",
+            0.085000926450289
+          ],
+          [
+            "SOUTH KOREA",
+            0.08000663250679894
+          ],
+          [
+            "DONALD TRUMP",
+            0.07273798969285414
+          ],
+          [
+            "TRUMP ADMINISTRATION",
+            0.05583111998827758
+          ],
+          [
+            "US",
+            0.024280232415444976
+          ],
+          [
+            "DENUCLEARIZATION",
+            0.02291849764834376
+          ],
+          [
+            "CHEOLLIMA CIVIL DEFENCE",
+            0.01833707605449254
+          ]
+        ],
+        "pagerank_top": [
+          [
+            "NORTH KOREA",
+            0.20143384902905126
+          ],
+          [
+            "KIM JONG UN",
+            0.06912141318684936
+          ],
+          [
+            "TRUMP",
+            0.06151855837012019
+          ],
+          [
+            "DONALD TRUMP",
+            0.0404355520014644
+          ],
+          [
+            "SOUTH KOREA",
+            0.03173587268677593
+          ],
+          [
+            "KIM JONG-UN",
+            0.029870562764842217
+          ],
+          [
+            "UNITED STATES",
+            0.014605526927128784
+          ],
+          [
+            "SANCTIONS",
+            0.010522861605878736
+          ],
+          [
+            "CHINA",
+            0.010026847041525209
+          ],
+          [
+            "TRUMP ADMINISTRATION",
+            0.009923524970728034
+          ]
+        ],
+        "eigenvector_top": [
+          [
+            "NORTH KOREA",
+            0.5697509410941269
+          ],
+          [
+            "TRUMP",
+            0.2220797144004177
+          ],
+          [
+            "DONALD TRUMP",
+            0.2068035544717171
+          ],
+          [
+            "KIM JONG UN",
+            0.2064004224955549
+          ],
+          [
+            "KIM JONG-UN",
+            0.1563322796590909
+          ],
+          [
+            "SOUTH KOREA",
+            0.1203860568990475
+          ],
+          [
+            "US",
+            0.1159469822172559
+          ],
+          [
+            "UNITED STATES",
+            0.10258943129380049
+          ],
+          [
+            "CHINA",
+            0.101989904814449
+          ],
+          [
+            "DENUCLEARIZATION",
+            0.09792202078049801
+          ]
+        ]
+      }
+    },
+    "entity_types": {
+      "period1": {
+        "counts": {
+          "EVENT": 654,
+          "POLICY": 546,
+          "PERSON": 457,
+          "ORGANIZATION": 419,
+          "WEAPON": 264,
+          "": 246,
+          "COUNTRY": 149,
+          "GEO": 62,
+          "CITY": 10,
+          "MILITARY ASSET": 3,
+          "MILITARY": 3,
+          "CULTURAL PHENOMENON": 2,
+          "CULTURAL ITEM": 1,
+          "DOCUMENT": 1,
+          "ETHNIC GROUP": 1,
+          "REGION": 1,
+          "MYTHICAL CREATURE": 1,
+          "FOOD": 1,
+          "LOCATION": 1
+        },
+        "percentages": {
+          "EVENT": 23.175053153791637,
+          "POLICY": 19.34798015591779,
+          "PERSON": 16.194188518781004,
+          "ORGANIZATION": 14.847625797306874,
+          "WEAPON": 9.355067328136075,
+          "": 8.717221828490432,
+          "COUNTRY": 5.279943302622254,
+          "GEO": 2.1970233876683203,
+          "CITY": 0.3543586109142452,
+          "MILITARY ASSET": 0.10630758327427356,
+          "MILITARY": 0.10630758327427356,
+          "CULTURAL PHENOMENON": 0.07087172218284904,
+          "CULTURAL ITEM": 0.03543586109142452,
+          "DOCUMENT": 0.03543586109142452,
+          "ETHNIC GROUP": 0.03543586109142452,
+          "REGION": 0.03543586109142452,
+          "MYTHICAL CREATURE": 0.03543586109142452,
+          "FOOD": 0.03543586109142452,
+          "LOCATION": 0.03543586109142452
+        },
+        "total": 2822
+      },
+      "period2": {
+        "counts": {
+          "EVENT": 230,
+          "POLICY": 217,
+          "ORGANIZATION": 184,
+          "PERSON": 172,
+          "": 111,
+          "COUNTRY": 94,
+          "WEAPON": 79,
+          "GEO": 22,
+          "CITY": 3,
+          "CURRENCY": 1,
+          "CULTURAL EVENT": 1,
+          "MOVIE": 1,
+          "STATE": 1,
+          "ANIMAL": 1
+        },
+        "percentages": {
+          "EVENT": 20.590868397493285,
+          "POLICY": 19.427036705461056,
+          "ORGANIZATION": 16.472694717994628,
+          "PERSON": 15.398388540734109,
+          "": 9.937332139659803,
+          "COUNTRY": 8.415398388540735,
+          "WEAPON": 7.072515666965085,
+          "GEO": 1.9695613249776187,
+          "CITY": 0.26857654431512984,
+          "CURRENCY": 0.08952551477170993,
+          "CULTURAL EVENT": 0.08952551477170993,
+          "MOVIE": 0.08952551477170993,
+          "STATE": 0.08952551477170993,
+          "ANIMAL": 0.08952551477170993
+        },
+        "total": 1117
+      },
+      "period3": {
+        "counts": {
+          "EVENT": 224,
+          "PERSON": 169,
+          "POLICY": 157,
+          "ORGANIZATION": 151,
+          "": 91,
+          "WEAPON": 75,
+          "COUNTRY": 40,
+          "GEO": 23,
+          "CITY": 5
+        },
+        "percentages": {
+          "EVENT": 23.9572192513369,
+          "PERSON": 18.074866310160427,
+          "POLICY": 16.791443850267378,
+          "ORGANIZATION": 16.149732620320854,
+          "": 9.732620320855615,
+          "WEAPON": 8.02139037433155,
+          "COUNTRY": 4.27807486631016,
+          "GEO": 2.4598930481283423,
+          "CITY": 0.53475935828877
+        },
+        "total": 935
+      }
+    },
+    "relationships": {
+      "period1": {
+        "type_counts": {
+          "threat": 2973,
+          "neutral": 1488,
+          "peace": 377
+        },
+        "type_pct": {
+          "threat": 61.451012815212906,
+          "neutral": 30.756510954940058,
+          "peace": 7.792476229847043
+        },
+        "top_weighted": [
+          {
+            "source": "NORTH KOREA",
+            "target": "SOUTH KOREA",
+            "weight": 3116.0,
+            "description": "North Korea and South Korea are two neighboring countries on the Korean Peninsula, characterized by ..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "TRUMP",
+            "weight": 1854.0,
+            "description": "During Donald Trump's presidency, the relationship between the United States and North Korea was cha..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "KIM JONG UN",
+            "weight": 1713.0,
+            "description": "Kim Jong Un is the Supreme Leader of North Korea, a position he has held since the death of his fath..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "CHINA",
+            "weight": 1614.0,
+            "description": "North Korea and China share a complex and multifaceted relationship characterized by deep economic t..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "UNITED STATES",
+            "weight": 1361.0,
+            "description": "North Korea and the United States are engaged in a complex and tense diplomatic relationship primari..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "RUSSIA",
+            "weight": 985.0,
+            "description": "North Korea and Russia maintain a complex and multifaceted relationship characterized by mutual inte..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "KIM JONG-UN",
+            "weight": 910.0,
+            "description": "Kim Jong-un is the Supreme Leader of North Korea, a position that grants him significant influence o..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "US",
+            "weight": 909.0,
+            "description": "North Korea and the United States share a complex and adversarial relationship that has evolved over..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "ICBM",
+            "weight": 842.0,
+            "description": "North Korea is actively developing and testing intercontinental ballistic missiles (ICBMs) as a cent..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "NUCLEAR WEAPONS",
+            "weight": 814.0,
+            "description": "North Korea's nuclear weapons program is a pivotal element of its military strategy and internationa..."
+          }
+        ],
+        "avg_weight": 14.277800744109136,
+        "max_weight": 3116.0,
+        "total": 4838
+      },
+      "period2": {
+        "type_counts": {
+          "threat": 780,
+          "neutral": 604,
+          "peace": 454
+        },
+        "type_pct": {
+          "threat": 42.437431991294886,
+          "neutral": 32.861806311207836,
+          "peace": 24.70076169749728
+        },
+        "top_weighted": [
+          {
+            "source": "NORTH KOREA",
+            "target": "DENUCLEARIZATION",
+            "weight": 524.0,
+            "description": "Denuclearization is a pivotal issue in North Korea's foreign policy and its negotiations with the Un..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "SOUTH KOREA",
+            "weight": 510.0,
+            "description": "North Korea and South Korea are two neighboring countries on the Korean Peninsula with a long and co..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "KIM JONG UN",
+            "weight": 458.0,
+            "description": "Kim Jong Un is the Supreme Leader of North Korea, a position that places him at the forefront of the..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "TRUMP",
+            "weight": 433.0,
+            "description": "During his presidency, Donald Trump played a pivotal role in U.S. relations with North Korea, primar..."
+          },
+          {
+            "source": "KIM JONG UN",
+            "target": "NORTH KOREA",
+            "weight": 325.0,
+            "description": "Kim Jong Un is the Supreme Leader of North Korea, a position that places him at the center of the co..."
+          },
+          {
+            "source": "TRUMP",
+            "target": "KIM JONG UN",
+            "weight": 282.0,
+            "description": "Donald Trump and Kim Jong Un have been central figures in a series of high-profile summits and negot..."
+          },
+          {
+            "source": "TRUMP",
+            "target": "NORTH KOREA",
+            "weight": 273.0,
+            "description": "During his presidency, Donald Trump engaged in extensive diplomatic efforts with North Korea, primar..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "CHINA",
+            "weight": 262.0,
+            "description": "China and North Korea share a complex and multifaceted relationship characterized by significant col..."
+          },
+          {
+            "source": "DONALD TRUMP",
+            "target": "KIM JONG UN",
+            "weight": 233.0,
+            "description": "Donald Trump and Kim Jong Un have engaged in a series of high-profile diplomatic negotiations focuse..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "UNITED STATES",
+            "weight": 210.0,
+            "description": "North Korea and the United States are engaged in a complex and contentious diplomatic relationship p..."
+          }
+        ],
+        "avg_weight": 11.669205658324266,
+        "max_weight": 524.0,
+        "total": 1838
+      },
+      "period3": {
+        "type_counts": {
+          "threat": 626,
+          "neutral": 620,
+          "peace": 284
+        },
+        "type_pct": {
+          "threat": 40.91503267973856,
+          "neutral": 40.52287581699346,
+          "peace": 18.562091503267975
+        },
+        "top_weighted": [
+          {
+            "source": "NORTH KOREA",
+            "target": "SOUTH KOREA",
+            "weight": 663.0,
+            "description": "North Korea and South Korea are neighboring countries with a complex and adversarial relationship ch..."
+          },
+          {
+            "source": "KIM JONG UN",
+            "target": "NORTH KOREA",
+            "weight": 484.0,
+            "description": "Kim Jong Un is the Supreme Leader of North Korea, exercising total control over the country and dire..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "KIM JONG UN",
+            "weight": 431.0,
+            "description": "Kim Jong Un is the Supreme Leader of North Korea, playing a pivotal role in shaping the country's po..."
+          },
+          {
+            "source": "TRUMP",
+            "target": "KIM JONG UN",
+            "weight": 348.0,
+            "description": "Donald Trump and Kim Jong Un have engaged in a series of high-profile diplomatic talks aimed at addr..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "TRUMP",
+            "weight": 311.0,
+            "description": "During his presidency, Donald Trump played a pivotal role in shaping U.S.-North Korea relations thro..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "SANCTIONS",
+            "weight": 298.0,
+            "description": "North Korea is subject to a comprehensive regime of international sanctions primarily aimed at curbi..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "UNITED STATES",
+            "weight": 285.0,
+            "description": "North Korea and the United States share a tense and adversarial relationship primarily centered arou..."
+          },
+          {
+            "source": "TRUMP",
+            "target": "NORTH KOREA",
+            "weight": 271.0,
+            "description": "During his presidency, Donald Trump engaged extensively with North Korea and its leader, Kim Jong-un..."
+          },
+          {
+            "source": "DONALD TRUMP",
+            "target": "KIM JONG UN",
+            "weight": 265.0,
+            "description": "Donald Trump and Kim Jong Un have engaged in a series of high-profile diplomatic negotiations and di..."
+          },
+          {
+            "source": "NORTH KOREA",
+            "target": "CHINA",
+            "weight": 243.0,
+            "description": "North Korea and China share a complex and multifaceted relationship characterized by deep political,..."
+          }
+        ],
+        "avg_weight": 12.289542483660131,
+        "max_weight": 663.0,
+        "total": 1530
+      }
+    },
+    "communities": {
+      "period1": {
+        "n_communities": 354,
+        "theme_distribution": {
+          "mixed": 225,
+          "threat": 108,
+          "diplomacy": 21
+        },
+        "top_titles": [
+          "North Korea: A Nuclear Pariah State",
+          "North Korea Nuclear Test Site and Closure Ceremony",
+          "North Korea: A Nuclear Pariah State",
+          "North Korean Missile Launches",
+          "North-South Korea Talks and Nuclear Disarming"
+        ]
+      },
+      "period2": {
+        "n_communities": 153,
+        "theme_distribution": {
+          "mixed": 88,
+          "threat": 40,
+          "diplomacy": 25
+        },
+        "top_titles": [
+          "North Korea and International Security Dynamics",
+          "North Korea's Ballistic Missile Threat and Onodera's Stance",
+          "North Korea: Nuclear Threat and Diplomatic Challenges",
+          "North Korea's Nuclear Weapons and IAEA Oversight",
+          "Human Rights Act and Economic Improvements in North Korea"
+        ]
+      },
+      "period3": {
+        "n_communities": 107,
+        "theme_distribution": {
+          "mixed": 78,
+          "threat": 22,
+          "diplomacy": 7
+        },
+        "top_titles": [
+          "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "Bolton, Pompeo, and North Korea Policy",
+          "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "North Korea and the United Nations Security Council",
+          "U.S.-North Korea Nuclear Negotiations Community"
+        ]
+      }
+    },
+    "key_dyads": {
+      "NORTH KOREA \u2194 TRUMP": {
+        "period1": 2419.0,
+        "period2": 706.0,
+        "period3": 582.0
+      },
+      "NORTH KOREA \u2194 KIM JONG UN": {
+        "period1": 2393.0,
+        "period2": 783.0,
+        "period3": 915.0
+      },
+      "NORTH KOREA \u2194 SOUTH KOREA": {
+        "period1": 3421.0,
+        "period2": 661.0,
+        "period3": 689.0
+      },
+      "NORTH KOREA \u2194 DENUCLEARIZATION": {
+        "period1": 280.0,
+        "period2": 532.0,
+        "period3": 150.0
+      },
+      "NORTH KOREA \u2194 UNITED STATES": {
+        "period1": 1428.0,
+        "period2": 247.0,
+        "period3": 301.0
+      },
+      "KIM JONG UN \u2194 TRUMP": {
+        "period1": 427.0,
+        "period2": 412.0,
+        "period3": 494.0
+      },
+      "KIM JONG UN \u2194 DONALD TRUMP": {
+        "period1": 408.0,
+        "period2": 359.0,
+        "period3": 396.0
+      }
+    }
+  },
+  "graphrag_3period_analysis": {
+    "period_summaries": {
+      "P1_PreSingapore": {
+        "entities": 2822,
+        "relationships": 4838,
+        "communities": 354,
+        "threat_pct": 61.45,
+        "peace_pct": 7.79
+      },
+      "P2_SingaporeHanoi": {
+        "entities": 1117,
+        "relationships": 1838,
+        "communities": 153,
+        "threat_pct": 42.44,
+        "peace_pct": 24.7
+      },
+      "P3_PostHanoi": {
+        "entities": 935,
+        "relationships": 1530,
+        "communities": 107,
+        "threat_pct": 40.92,
+        "peace_pct": 18.56
+      }
+    },
+    "transitions": {
+      "P1_to_P2_Singapore": {
+        "entities": {
+          "pre_intervention_count": 2822,
+          "post_intervention_count": 1117,
+          "new_entities": 718,
+          "disappeared_entities": 2423,
+          "persistent_entities": 399,
+          "new_entity_examples": [
+            "DETAINMENT",
+            "KOREA MISSILE DEFENSE",
+            "SANUMDONG FACTORY",
+            "NORWEGIAN LAWMAKERS",
+            "KIM HYOK CHOL",
+            "CLUSTER BOMBS",
+            "MILITARY DOCTRINE",
+            "WIMAN JOSEON",
+            "BAMBOO AIRLINES",
+            "ABE ADMINISTRATION",
+            "KOREAN ALLIANCE",
+            "SOUTH VIETNAM",
+            "M1991",
+            "RUSSIAN VODKA",
+            "SECRET SITES",
+            "BOEING",
+            "FIRESIDE CHAT",
+            "S$20 MILLION",
+            "COMMUNIST CHINA",
+            "DENMARK"
+          ],
+          "disappeared_examples": [
+            "TERRITORIAL DISPUTES",
+            "CATCH 22",
+            "HUMANITARIAN DISASTER",
+            "KOREAN WAR PEACE TREATY",
+            "US JETS",
+            "RI",
+            "JOINT U.S.-SOUTH KOREA MILITARY EXERCISES",
+            "FRED WARMBIER",
+            "BEN CARSON",
+            "KOREA TALKS",
+            "RIGHTS",
+            "TRUMP EVANGELICAL ADVISER",
+            "US POLITICS",
+            "BLUE HOUSE",
+            "PEOPLE'S ARMY",
+            "MILITARY POWER",
+            "CHOMSKY",
+            "KAERI",
+            "US SECURITY REPORT",
+            "ASIAN DIPLOMACY TOUR"
+          ],
+          "type_distribution_pre": {
+            "EVENT": "654",
+            "POLICY": "546",
+            "PERSON": "457",
+            "ORGANIZATION": "419",
+            "WEAPON": "264",
+            "": "246",
+            "COUNTRY": "149",
+            "GEO": "62",
+            "CITY": "10",
+            "MILITARY ASSET": "3",
+            "MILITARY": "3",
+            "CULTURAL PHENOMENON": "2",
+            "CULTURAL ITEM": "1",
+            "DOCUMENT": "1",
+            "ETHNIC GROUP": "1",
+            "REGION": "1",
+            "MYTHICAL CREATURE": "1",
+            "FOOD": "1",
+            "LOCATION": "1"
+          },
+          "type_distribution_post": {
+            "EVENT": "230",
+            "POLICY": "217",
+            "ORGANIZATION": "184",
+            "PERSON": "172",
+            "": "111",
+            "COUNTRY": "94",
+            "WEAPON": "79",
+            "GEO": "22",
+            "CITY": "3",
+            "CURRENCY": "1",
+            "CULTURAL EVENT": "1",
+            "MOVIE": "1",
+            "STATE": "1",
+            "ANIMAL": "1"
+          }
+        },
+        "relationships": {
+          "pre_intervention_count": 4838,
+          "post_intervention_count": 1838,
+          "relationship_change": -3000,
+          "threat_pct_pre": 61.45,
+          "threat_pct_post": 42.44,
+          "threat_pct_change": -19.01,
+          "peace_pct_pre": 7.79,
+          "peace_pct_post": 24.7,
+          "peace_pct_change": 16.91,
+          "type_counts_pre": {
+            "threat": "2973",
+            "neutral": "1488",
+            "peace": "377"
+          },
+          "type_counts_post": {
+            "threat": "780",
+            "neutral": "604",
+            "peace": "454"
+          }
+        },
+        "key_actors": {
+          "KIM JONG UN": {
+            "connections_pre": "931",
+            "connections_post": "490",
+            "change": "-441"
+          },
+          "TRUMP": {
+            "connections_pre": "1019",
+            "connections_post": "467",
+            "change": "-552"
+          },
+          "NORTH KOREA": {
+            "connections_pre": "1844",
+            "connections_post": "597",
+            "change": "-1247"
+          },
+          "UNITED STATES": {
+            "connections_pre": "1256",
+            "connections_post": "476",
+            "change": "-780"
+          },
+          "SOUTH KOREA": {
+            "connections_pre": "475",
+            "connections_post": "190",
+            "change": "-285"
+          }
+        },
+        "topology": {
+          "pre_intervention": {
+            "n_nodes": 2656,
+            "n_edges": 4838,
+            "density": 0.0014,
+            "avg_degree": 3.64,
+            "max_degree": 1514,
+            "top_entities": [
+              {
+                "entity": "NORTH KOREA",
+                "degree": 1514
+              },
+              {
+                "entity": "TRUMP",
+                "degree": 375
+              },
+              {
+                "entity": "SOUTH KOREA",
+                "degree": 341
+              },
+              {
+                "entity": "KIM JONG UN",
+                "degree": 219
+              },
+              {
+                "entity": "DONALD TRUMP",
+                "degree": 210
+              }
+            ]
+          },
+          "post_intervention": {
+            "n_nodes": 1043,
+            "n_edges": 1838,
+            "density": 0.0034,
+            "avg_degree": 3.52,
+            "max_degree": 479,
+            "top_entities": [
+              {
+                "entity": "NORTH KOREA",
+                "degree": 479
+              },
+              {
+                "entity": "TRUMP",
+                "degree": 178
+              },
+              {
+                "entity": "SOUTH KOREA",
+                "degree": 136
+              },
+              {
+                "entity": "KIM JONG UN",
+                "degree": 119
+              },
+              {
+                "entity": "DONALD TRUMP",
+                "degree": 92
+              }
+            ]
+          },
+          "density_change": 0.002,
+          "avg_degree_change": -0.12,
+          "nodes_change": -1613,
+          "edges_change": -3000
+        }
+      },
+      "P2_to_P3_Hanoi": {
+        "entities": {
+          "pre_intervention_count": 1117,
+          "post_intervention_count": 935,
+          "new_entities": 707,
+          "disappeared_entities": 889,
+          "persistent_entities": 228,
+          "new_entity_examples": [
+            "BRITISH TABLOIDS",
+            "KOREAN RIGHT-WING ELDERLY",
+            "PROPAGANDA MACHINE",
+            "KIMSUSAN PALACE OF THE SUN",
+            "DOCUMENT_SEPARATOR",
+            "CRYPTO THEFT",
+            "KIM JONG UN'S LETTER",
+            "TREASON",
+            "KWON JONG GUN",
+            "GHOST SHIP",
+            "DAVID MCKINLEY",
+            "HYDROGEN BOMB",
+            "US POLITICS",
+            "TRADE WARS",
+            "MILKSHAKE ATTACK",
+            "WADS",
+            "ELECTRIC CAR BATTERY PLANTS",
+            "U.S.-SOUTH KOREAN MILITARY EXERCISE",
+            "MADRID EMBASSY RAID",
+            "HANOI TALKS"
+          ],
+          "disappeared_examples": [
+            "GEORGE W. BUSH",
+            "DETAINMENT",
+            "KOREA MISSILE DEFENSE",
+            "SANUMDONG FACTORY",
+            "US-NK SUMMIT",
+            "NORWEGIAN LAWMAKERS",
+            "CLUSTER BOMBS",
+            "MIDDLEBURY INSTITUTE OF INTERNATIONAL STUDIES",
+            "NORTH KOREA NUCLEAR CRISIS",
+            "MILITARY CONFRONTATION",
+            "MILITARY DOCTRINE",
+            "WIMAN JOSEON",
+            "BAMBOO AIRLINES",
+            "ABE ADMINISTRATION",
+            "KOREAN ALLIANCE",
+            "SOUTH VIETNAM",
+            "M1991",
+            "RUSSIAN VODKA",
+            "SOVIETS",
+            "SIX PARTY TALKS"
+          ],
+          "type_distribution_pre": {
+            "EVENT": "230",
+            "POLICY": "217",
+            "ORGANIZATION": "184",
+            "PERSON": "172",
+            "": "111",
+            "COUNTRY": "94",
+            "WEAPON": "79",
+            "GEO": "22",
+            "CITY": "3",
+            "CURRENCY": "1",
+            "CULTURAL EVENT": "1",
+            "MOVIE": "1",
+            "STATE": "1",
+            "ANIMAL": "1"
+          },
+          "type_distribution_post": {
+            "EVENT": "224",
+            "PERSON": "169",
+            "POLICY": "157",
+            "ORGANIZATION": "151",
+            "": "91",
+            "WEAPON": "75",
+            "COUNTRY": "40",
+            "GEO": "23",
+            "CITY": "5"
+          }
+        },
+        "relationships": {
+          "pre_intervention_count": 1838,
+          "post_intervention_count": 1530,
+          "relationship_change": -308,
+          "threat_pct_pre": 42.44,
+          "threat_pct_post": 40.92,
+          "threat_pct_change": -1.52,
+          "peace_pct_pre": 24.7,
+          "peace_pct_post": 18.56,
+          "peace_pct_change": -6.14,
+          "type_counts_pre": {
+            "threat": "780",
+            "neutral": "604",
+            "peace": "454"
+          },
+          "type_counts_post": {
+            "threat": "626",
+            "neutral": "620",
+            "peace": "284"
+          }
+        },
+        "key_actors": {
+          "KIM JONG UN": {
+            "connections_pre": "490",
+            "connections_post": "599",
+            "change": "109"
+          },
+          "TRUMP": {
+            "connections_pre": "467",
+            "connections_post": "534",
+            "change": "67"
+          },
+          "NORTH KOREA": {
+            "connections_pre": "597",
+            "connections_post": "581",
+            "change": "-16"
+          },
+          "UNITED STATES": {
+            "connections_pre": "476",
+            "connections_post": "284",
+            "change": "-192"
+          },
+          "SOUTH KOREA": {
+            "connections_pre": "190",
+            "connections_post": "115",
+            "change": "-75"
+          }
+        },
+        "topology": {
+          "pre_intervention": {
+            "n_nodes": 1043,
+            "n_edges": 1838,
+            "density": 0.0034,
+            "avg_degree": 3.52,
+            "max_degree": 479,
+            "top_entities": [
+              {
+                "entity": "NORTH KOREA",
+                "degree": 479
+              },
+              {
+                "entity": "TRUMP",
+                "degree": 178
+              },
+              {
+                "entity": "SOUTH KOREA",
+                "degree": 136
+              },
+              {
+                "entity": "KIM JONG UN",
+                "degree": 119
+              },
+              {
+                "entity": "DONALD TRUMP",
+                "degree": 92
+              }
+            ]
+          },
+          "post_intervention": {
+            "n_nodes": 879,
+            "n_edges": 1530,
+            "density": 0.004,
+            "avg_degree": 3.48,
+            "max_degree": 442,
+            "top_entities": [
+              {
+                "entity": "NORTH KOREA",
+                "degree": 442
+              },
+              {
+                "entity": "TRUMP",
+                "degree": 162
+              },
+              {
+                "entity": "KIM JONG UN",
+                "degree": 137
+              },
+              {
+                "entity": "DONALD TRUMP",
+                "degree": 128
+              },
+              {
+                "entity": "KIM JONG-UN",
+                "degree": 90
+              }
+            ]
+          },
+          "density_change": 0.0006,
+          "avg_degree_change": -0.04,
+          "nodes_change": -164,
+          "edges_change": -308
+        }
+      },
+      "P1_to_P3_Overall": {
+        "entities": {
+          "pre_intervention_count": 2822,
+          "post_intervention_count": 935,
+          "new_entities": 596,
+          "disappeared_entities": 2483,
+          "persistent_entities": 339,
+          "new_entity_examples": [
+            "BRITISH TABLOIDS",
+            "KOREAN RIGHT-WING ELDERLY",
+            "KIM HYOK CHOL",
+            "KIMSUSAN PALACE OF THE SUN",
+            "CRYPTO THEFT",
+            "KIM JONG UN'S LETTER",
+            "TREASON",
+            "KWON JONG GUN",
+            "GHOST SHIP",
+            "DAVID MCKINLEY",
+            "WADS",
+            "TRADE WARS",
+            "MILKSHAKE ATTACK",
+            "ELECTRIC CAR BATTERY PLANTS",
+            "U.S.-SOUTH KOREAN MILITARY EXERCISE",
+            "MADRID EMBASSY RAID",
+            "HANOI TALKS",
+            "TERRORISM BLACKLIST",
+            "FINANCIAL BURDEN",
+            "JYP ENTERTAINMENT"
+          ],
+          "disappeared_examples": [
+            "TERRITORIAL DISPUTES",
+            "CATCH 22",
+            "US-NK SUMMIT",
+            "HUMANITARIAN DISASTER",
+            "MIDDLEBURY INSTITUTE OF INTERNATIONAL STUDIES",
+            "KOREAN WAR PEACE TREATY",
+            "MILITARY CONFRONTATION",
+            "US JETS",
+            "RI",
+            "JOINT U.S.-SOUTH KOREA MILITARY EXERCISES",
+            "FRED WARMBIER",
+            "BEN CARSON",
+            "KOREA TALKS",
+            "RIGHTS",
+            "TRUMP EVANGELICAL ADVISER",
+            "BLUE HOUSE",
+            "PEOPLE'S ARMY",
+            "MILITARY POWER",
+            "CHOMSKY",
+            "KAERI"
+          ],
+          "type_distribution_pre": {
+            "EVENT": "654",
+            "POLICY": "546",
+            "PERSON": "457",
+            "ORGANIZATION": "419",
+            "WEAPON": "264",
+            "": "246",
+            "COUNTRY": "149",
+            "GEO": "62",
+            "CITY": "10",
+            "MILITARY ASSET": "3",
+            "MILITARY": "3",
+            "CULTURAL PHENOMENON": "2",
+            "CULTURAL ITEM": "1",
+            "DOCUMENT": "1",
+            "ETHNIC GROUP": "1",
+            "REGION": "1",
+            "MYTHICAL CREATURE": "1",
+            "FOOD": "1",
+            "LOCATION": "1"
+          },
+          "type_distribution_post": {
+            "EVENT": "224",
+            "PERSON": "169",
+            "POLICY": "157",
+            "ORGANIZATION": "151",
+            "": "91",
+            "WEAPON": "75",
+            "COUNTRY": "40",
+            "GEO": "23",
+            "CITY": "5"
+          }
+        },
+        "relationships": {
+          "pre_intervention_count": 4838,
+          "post_intervention_count": 1530,
+          "relationship_change": -3308,
+          "threat_pct_pre": 61.45,
+          "threat_pct_post": 40.92,
+          "threat_pct_change": -20.54,
+          "peace_pct_pre": 7.79,
+          "peace_pct_post": 18.56,
+          "peace_pct_change": 10.77,
+          "type_counts_pre": {
+            "threat": "2973",
+            "neutral": "1488",
+            "peace": "377"
+          },
+          "type_counts_post": {
+            "threat": "626",
+            "neutral": "620",
+            "peace": "284"
+          }
+        }
+      }
+    },
+    "communities": {
+      "P1": {
+        "community_count_pre": 354,
+        "community_count_post": 354,
+        "community_titles_pre": [
+          "North Korea: A Nuclear Pariah State",
+          "North Korea Nuclear Test Site and Closure Ceremony",
+          "North Korea: A Nuclear Pariah State",
+          "North Korean Missile Launches",
+          "North-South Korea Talks and Nuclear Disarming",
+          "North Korea: A Nuclear and Humanitarian Crisis",
+          "North Korea Missile Tests and Regional Implications",
+          "Missile Defense and Military Funding",
+          "North Korea's Military and Media Landscape",
+          "North Korea: Nuclear Ambitions and Military Posture"
+        ],
+        "community_titles_post": [
+          "North Korea: A Nuclear Pariah State",
+          "North Korea Nuclear Test Site and Closure Ceremony",
+          "North Korea: A Nuclear Pariah State",
+          "North Korean Missile Launches",
+          "North-South Korea Talks and Nuclear Disarming",
+          "North Korea: A Nuclear and Humanitarian Crisis",
+          "North Korea Missile Tests and Regional Implications",
+          "Missile Defense and Military Funding",
+          "North Korea's Military and Media Landscape",
+          "North Korea: Nuclear Ambitions and Military Posture"
+        ],
+        "avg_community_size_pre": 1.0,
+        "max_community_size_pre": 1,
+        "avg_community_size_post": 1.0,
+        "max_community_size_post": 1
+      },
+      "P2": {
+        "community_count_pre": 153,
+        "community_count_post": 153,
+        "community_titles_pre": [
+          "North Korea and International Security Dynamics",
+          "North Korea's Ballistic Missile Threat and Onodera's Stance",
+          "North Korea: Nuclear Threat and Diplomatic Challenges",
+          "North Korea's Nuclear Weapons and IAEA Oversight",
+          "Human Rights Act and Economic Improvements in North Korea",
+          "US-South Korea Defense and Diplomacy Community",
+          "U.S. Military and American GOP",
+          "Second Summit and Hanoi Hilton",
+          "Nobel Peace Prize and Bank Robber Nomination",
+          "U.S.-North Korea Diplomatic Community"
+        ],
+        "community_titles_post": [
+          "North Korea and International Security Dynamics",
+          "North Korea's Ballistic Missile Threat and Onodera's Stance",
+          "North Korea: Nuclear Threat and Diplomatic Challenges",
+          "North Korea's Nuclear Weapons and IAEA Oversight",
+          "Human Rights Act and Economic Improvements in North Korea",
+          "US-South Korea Defense and Diplomacy Community",
+          "U.S. Military and American GOP",
+          "Second Summit and Hanoi Hilton",
+          "Nobel Peace Prize and Bank Robber Nomination",
+          "U.S.-North Korea Diplomatic Community"
+        ],
+        "avg_community_size_pre": 1.0,
+        "max_community_size_pre": 1,
+        "avg_community_size_post": 1.0,
+        "max_community_size_post": 1
+      },
+      "P3": {
+        "community_count_pre": 107,
+        "community_count_post": 107,
+        "community_titles_pre": [
+          "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "Bolton, Pompeo, and North Korea Policy",
+          "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "North Korea and the United Nations Security Council",
+          "U.S.-North Korea Nuclear Negotiations Community",
+          "U.S. State Department and Russian Officials on North Korea",
+          "Sino-Ri Missile Operating Base and Rodong Missiles",
+          "North Korea: Nuclear Ambitions and International Relations",
+          "U.S. Treasury Department and Sanctions on North Korea",
+          "U.S.-North Korea Diplomatic Community"
+        ],
+        "community_titles_post": [
+          "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "Bolton, Pompeo, and North Korea Policy",
+          "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "North Korea and the United Nations Security Council",
+          "U.S.-North Korea Nuclear Negotiations Community",
+          "U.S. State Department and Russian Officials on North Korea",
+          "Sino-Ri Missile Operating Base and Rodong Missiles",
+          "North Korea: Nuclear Ambitions and International Relations",
+          "U.S. Treasury Department and Sanctions on North Korea",
+          "U.S.-North Korea Diplomatic Community"
+        ],
+        "avg_community_size_pre": 1.0,
+        "max_community_size_pre": 1,
+        "avg_community_size_post": 1.0,
+        "max_community_size_post": 1
+      }
+    }
+  },
+  "community_deep_analysis": {
+    "period1": {
+      "top_communities": [
+        {
+          "id": 352,
+          "title": "North Korea: A Nuclear Pariah State",
+          "summary": "The community surrounding North Korea is characterized by its authoritarian regime, aggressive military posture, and significant nuclear capabilities. North Korea's relationships with international entities, particularly the United Nations and various sanctions regimes, highlight its contentious pos...",
+          "rank": 9.5,
+          "size": 896
+        },
+        {
+          "id": 342,
+          "title": "North Korea: Nuclear Ambitions and Military Posture",
+          "summary": "The community surrounding North Korea is characterized by its aggressive military posture, particularly its nuclear and missile programs, which are central to its national defense strategy. The entities involved, including the military, nuclear arsenal, and state media, are interconnected through a ...",
+          "rank": 9.5,
+          "size": 908
+        },
+        {
+          "id": 213,
+          "title": "North Korea: A Nuclear and Military Power",
+          "summary": "The community surrounding North Korea is characterized by its authoritarian regime, significant military capabilities, and a focus on nuclear weapons development. The key entities include the North Korean government, its military, and the Kim family, all of which are interconnected through a complex...",
+          "rank": 9.5,
+          "size": 936
+        },
+        {
+          "id": 1,
+          "title": "North Korea: A Nuclear Pariah State",
+          "summary": "The community surrounding North Korea is characterized by its authoritarian regime, nuclear ambitions, and complex international relations, particularly with the United States and China. North Korea's military capabilities, including its missile and nuclear programs, pose significant global security...",
+          "rank": 9.5,
+          "size": 1069
+        },
+        {
+          "id": 337,
+          "title": "North Korea: Nuclear Ambitions and Military Posture",
+          "summary": "The community surrounding North Korea is characterized by its aggressive military posture, particularly its nuclear and missile programs, which have significant implications for regional and global security. Key entities include North Korea itself, its missile and nuclear programs, and the internati...",
+          "rank": 9.5,
+          "size": 912
+        }
+      ],
+      "keywords": [
+        {
+          "word": "north",
+          "count": 468
+        },
+        {
+          "word": "korea",
+          "count": 459
+        },
+        {
+          "word": "military",
+          "count": 252
+        },
+        {
+          "word": "nuclear",
+          "count": 203
+        },
+        {
+          "word": "international",
+          "count": 152
+        },
+        {
+          "word": "korean",
+          "count": 120
+        },
+        {
+          "word": "highlight",
+          "count": 119
+        },
+        {
+          "word": "security",
+          "count": 117
+        },
+        {
+          "word": "implications",
+          "count": 106
+        },
+        {
+          "word": "diplomatic",
+          "count": 96
+        },
+        {
+          "word": "geopolitical",
+          "count": 92
+        },
+        {
+          "word": "relations",
+          "count": 88
+        },
+        {
+          "word": "kim",
+          "count": 74
+        },
+        {
+          "word": "south",
+          "count": 73
+        },
+        {
+          "word": "highlights",
+          "count": 73
+        },
+        {
+          "word": "include",
+          "count": 71
+        },
+        {
+          "word": "tensions",
+          "count": 68
+        },
+        {
+          "word": "united",
+          "count": 66
+        },
+        {
+          "word": "threats",
+          "count": 63
+        },
+        {
+          "word": "complex",
+          "count": 63
+        },
+        {
+          "word": "strategies",
+          "count": 63
+        },
+        {
+          "word": "political",
+          "count": 62
+        },
+        {
+          "word": "ongoing",
+          "count": 61
+        },
+        {
+          "word": "global",
+          "count": 58
+        },
+        {
+          "word": "states",
+          "count": 58
+        }
+      ],
+      "findings": [
+        {
+          "community": "North Korea: A Nuclear Pariah State",
+          "summary": "North Korea's Nuclear Arsenal as a Deterrent",
+          "explanation": "North Korea's nuclear arsenal is a cornerstone of its national defense strategy, aimed at deterring perceived threats, particularly from the United States. The regime views its nuclear capabilities as"
+        },
+        {
+          "community": "North Korea: A Nuclear Pariah State",
+          "summary": "Impact of UN Sanctions on North Korea",
+          "explanation": "The UN sanctions imposed on North Korea are designed to restrict its nuclear and missile programs, significantly impacting its economy and military capabilities. These sanctions have been a response t"
+        },
+        {
+          "community": "North Korea: A Nuclear Pariah State",
+          "summary": "North Korea's Military Strategy and Readiness",
+          "explanation": "North Korea maintains one of the largest militaries in the world, which plays a crucial role in its national defense strategy. The military's focus on developing advanced weaponry, including intercont"
+        },
+        {
+          "community": "North Korea: Nuclear Ambitions and Military Posture",
+          "summary": "North Korea's nuclear arsenal as a deterrent",
+          "explanation": "North Korea's nuclear arsenal is a critical component of its national defense strategy, aimed primarily at deterring potential military action from the United States and safeguarding the regime's stab"
+        },
+        {
+          "community": "North Korea: Nuclear Ambitions and Military Posture",
+          "summary": "The significance of missile tests",
+          "explanation": "North Korea's missile tests are a central component of its military strategy, serving multiple purposes including the demonstration of its military capabilities and the assertion of power in the face "
+        },
+        {
+          "community": "North Korea: Nuclear Ambitions and Military Posture",
+          "summary": "The role of the military in North Korea's governance",
+          "explanation": "North Korea maintains a large military as a central element of its national defense strategy, which is intricately linked to its broader goals of asserting power and deterring perceived threats. The m"
+        },
+        {
+          "community": "North Korea: A Nuclear and Military Power",
+          "summary": "North Korea's Nuclear Weapons Program",
+          "explanation": "North Korea's nuclear weapons program is a central aspect of its national policy and military strategy, significantly escalating tensions with the United States and its allies. Under Kim Jong-un's lea"
+        },
+        {
+          "community": "North Korea: A Nuclear and Military Power",
+          "summary": "The Role of the Military in North Korea",
+          "explanation": "The military is a foundational element of North Korea's governance and strategic objectives, directly linked to its nuclear ambitions and defense posture. North Korea maintains one of the largest mili"
+        },
+        {
+          "community": "North Korea: A Nuclear and Military Power",
+          "summary": "Human Rights Violations and Famine",
+          "explanation": "North Korea is notorious for severe human rights violations, including political repression and the existence of political prison camps. The regime's focus on military spending and nuclear development"
+        },
+        {
+          "community": "North Korea: A Nuclear Pariah State",
+          "summary": "North Korea's Nuclear Ambitions",
+          "explanation": "North Korea's pursuit of nuclear weapons is central to its national defense strategy and international relations. The regime views its nuclear arsenal as essential for deterring perceived threats, par"
+        },
+        {
+          "community": "North Korea: A Nuclear Pariah State",
+          "summary": "Human Rights Violations",
+          "explanation": "North Korea is notorious for its oppressive governance, marked by severe human rights violations, including political prison camps and lack of freedoms. The regime's focus on military spending and nuc"
+        },
+        {
+          "community": "North Korea: A Nuclear Pariah State",
+          "summary": "Complex Relationship with China",
+          "explanation": "China serves as North Korea's closest ally, providing economic support and political backing. However, this relationship is complex, as China has grown increasingly cautious about North Korea's aggres"
+        },
+        {
+          "community": "North Korea: Nuclear Ambitions and Military Posture",
+          "summary": "North Korea's Nuclear Arsenal as a Deterrent",
+          "explanation": "North Korea's nuclear arsenal is a cornerstone of its national defense strategy, aimed at deterring perceived threats, particularly from the United States. The regime views its nuclear capabilities as"
+        },
+        {
+          "community": "North Korea: Nuclear Ambitions and Military Posture",
+          "summary": "Missile Tests Escalating Regional Tensions",
+          "explanation": "North Korea's missile tests are a critical component of its military strategy, serving multiple purposes including the demonstration of military capabilities and the assertion of power in the face of "
+        },
+        {
+          "community": "North Korea: Nuclear Ambitions and Military Posture",
+          "summary": "Economic Sanctions as a Response to Nuclear Ambitions",
+          "explanation": "Economic sanctions have been imposed on North Korea as a strategic measure to curb its nuclear ambitions and limit its nuclear weapons program. These sanctions aim to influence North Korea's behavior "
+        }
+      ],
+      "total_communities": 354
+    },
+    "period2": {
+      "top_communities": [
+        {
+          "id": 151,
+          "title": "North Korea and International Security Dynamics",
+          "summary": "The community surrounding North Korea is characterized by its complex relationships with international entities, particularly the United Nations, and its ongoing nuclear ambitions. North Korea's military capabilities, including its nuclear arsenal and ballistic missile programs, pose significant thr...",
+          "rank": 9.0,
+          "size": 258
+        },
+        {
+          "id": 147,
+          "title": "Pentagon and Nuclear Football Community",
+          "summary": "The community centers around the Pentagon, the headquarters of the U.S. Department of Defense, and its critical management of the nuclear football, which contains the launch codes for nuclear weapons. The relationship between these entities highlights the Pentagon's pivotal role in military strategy...",
+          "rank": 9.0,
+          "size": 2
+        },
+        {
+          "id": 59,
+          "title": "Kim Jong-un and North Korea's Nuclear Ambitions",
+          "summary": "The community centers around Kim Jong-un, the Supreme Leader of North Korea, and his significant role in the country's nuclear ambitions. Key entities include the Yongbyon Nuclear Complex, missile testing sites, and the broader implications of Kim's leadership on international relations and regional...",
+          "rank": 9.0,
+          "size": 14
+        },
+        {
+          "id": 68,
+          "title": "North Korea's Missile Development Community",
+          "summary": "This report focuses on the community surrounding North Korea's missile development, particularly the Sanumdong Factory and the Hwasong-15 ICBM. The entities are interconnected through their roles in missile production and intelligence analysis, highlighting the significant military capabilities of N...",
+          "rank": 9.0,
+          "size": 9
+        },
+        {
+          "id": 116,
+          "title": "North Korean Military Executions: Firing Squad and Korean People's Army",
+          "summary": "This report examines the community surrounding the use of firing squads in North Korea, particularly under the regime of Kim Jong-un, and the role of the Korean People's Army in executing military personnel. The entities are interconnected through the authoritarian practices of the North Korean regi...",
+          "rank": 9.0,
+          "size": 2
+        }
+      ],
+      "keywords": [
+        {
+          "word": "korea",
+          "count": 196
+        },
+        {
+          "word": "north",
+          "count": 184
+        },
+        {
+          "word": "nuclear",
+          "count": 91
+        },
+        {
+          "word": "military",
+          "count": 84
+        },
+        {
+          "word": "international",
+          "count": 67
+        },
+        {
+          "word": "korean",
+          "count": 65
+        },
+        {
+          "word": "diplomatic",
+          "count": 62
+        },
+        {
+          "word": "relations",
+          "count": 50
+        },
+        {
+          "word": "highlight",
+          "count": 49
+        },
+        {
+          "word": "south",
+          "count": 45
+        },
+        {
+          "word": "united",
+          "count": 44
+        },
+        {
+          "word": "ongoing",
+          "count": 44
+        },
+        {
+          "word": "efforts",
+          "count": 41
+        },
+        {
+          "word": "kim",
+          "count": 40
+        },
+        {
+          "word": "states",
+          "count": 40
+        },
+        {
+          "word": "complex",
+          "count": 37
+        },
+        {
+          "word": "security",
+          "count": 37
+        },
+        {
+          "word": "peace",
+          "count": 30
+        },
+        {
+          "word": "political",
+          "count": 30
+        },
+        {
+          "word": "negotiations",
+          "count": 29
+        },
+        {
+          "word": "geopolitical",
+          "count": 29
+        },
+        {
+          "word": "figures",
+          "count": 29
+        },
+        {
+          "word": "highlights",
+          "count": 28
+        },
+        {
+          "word": "implications",
+          "count": 28
+        },
+        {
+          "word": "dynamics",
+          "count": 28
+        }
+      ],
+      "findings": [
+        {
+          "community": "North Korea and International Security Dynamics",
+          "summary": "North Korea's Nuclear Threat",
+          "explanation": "North Korea's nuclear weapons program is a central issue in international security discussions, significantly impacting its relations with other nations. The country is estimated to possess up to 60 n"
+        },
+        {
+          "community": "North Korea and International Security Dynamics",
+          "summary": "Role of the United Nations",
+          "explanation": "The United Nations plays a crucial role in addressing the challenges posed by North Korea, particularly regarding its nuclear program and human rights violations. The UN has imposed sanctions on North"
+        },
+        {
+          "community": "North Korea and International Security Dynamics",
+          "summary": "Denuclearization Talks",
+          "explanation": "Denuclearization talks between North Korea and the United States are pivotal in addressing global security concerns. These negotiations focus on reducing or eliminating North Korea's nuclear arsenal a"
+        },
+        {
+          "community": "Pentagon and Nuclear Football Community",
+          "summary": "The Pentagon's central role in U.S. defense",
+          "explanation": "The Pentagon serves as the command center for the United States Department of Defense, overseeing military operations and strategic planning. It is integral to the U.S. military's functioning, particu"
+        },
+        {
+          "community": "Pentagon and Nuclear Football Community",
+          "summary": "Management of the nuclear football",
+          "explanation": "The nuclear football, a briefcase containing the launch codes for nuclear weapons, is managed by the Pentagon. This relationship is critical as it ties the Pentagon directly to the most sensitive aspe"
+        },
+        {
+          "community": "Pentagon and Nuclear Football Community",
+          "summary": "Interconnectedness of military strategy and nuclear capabilities",
+          "explanation": "The relationship between the Pentagon and the nuclear football illustrates the interconnectedness of military strategy and nuclear capabilities. The Pentagon's oversight of the nuclear football means "
+        },
+        {
+          "community": "Kim Jong-un and North Korea's Nuclear Ambitions",
+          "summary": "Kim Jong-un's authoritarian leadership",
+          "explanation": "Kim Jong-un is recognized for his authoritarian rule over North Korea, where he has maintained strict control through purges and military strategies. His leadership style is characterized by a blend o"
+        },
+        {
+          "community": "Kim Jong-un and North Korea's Nuclear Ambitions",
+          "summary": "The Yongbyon Nuclear Complex's role in nuclear discussions",
+          "explanation": "The Yongbyon Nuclear Complex is a central facility in North Korea's nuclear weapons program and has been a focal point in discussions about denuclearization. This facility's significance is underscore"
+        },
+        {
+          "community": "Kim Jong-un and North Korea's Nuclear Ambitions",
+          "summary": "Missile testing sites and disarmament promises",
+          "explanation": "North Korea's missile engine testing sites are critical to its military capabilities and have been mentioned in various disarmament discussions. Kim Jong-un has made promises to destroy these sites as"
+        },
+        {
+          "community": "North Korea's Missile Development Community",
+          "summary": "Sanumdong Factory's Role in Missile Production",
+          "explanation": "The Sanumdong Factory is a critical facility in North Korea's military-industrial complex, primarily involved in the production of intercontinental ballistic missiles (ICBMs). This factory's operation"
+        },
+        {
+          "community": "North Korea's Missile Development Community",
+          "summary": "Hwasong-15 as a Key ICBM",
+          "explanation": "The Hwasong-15 is a powerful intercontinental ballistic missile developed by North Korea, designed to reach targets as far as the continental United States. Its development marks a significant advance"
+        },
+        {
+          "community": "North Korea's Missile Development Community",
+          "summary": "Interconnectedness of Missile Facilities",
+          "explanation": "The Sanumdong Plant and the Sohae Satellite Launching Station are both integral to North Korea's missile and space launch capabilities. Their operational focus on missile technology indicates a strate"
+        },
+        {
+          "community": "North Korean Military Executions: Firing Squad and Korean People's Army",
+          "summary": "Firing Squad as a method of execution",
+          "explanation": "The firing squad is a method of execution that has been notably employed in North Korea, particularly under Kim Jong-un's regime. This method serves as a tool for enforcing discipline within the milit"
+        },
+        {
+          "community": "North Korean Military Executions: Firing Squad and Korean People's Army",
+          "summary": "Role of Kim Jong-un in military executions",
+          "explanation": "Kim Jong-un plays a pivotal role in the execution of military personnel, as evidenced by his direct orders for executions by firing squad. This demonstrates his authoritarian control over the Korean P"
+        },
+        {
+          "community": "North Korean Military Executions: Firing Squad and Korean People's Army",
+          "summary": "Korean People's Army's involvement in executions",
+          "explanation": "The Korean People's Army is directly involved in executing military personnel, as illustrated by the execution of a lieutenant general for charges of abusing authority. This incident reflects the inte"
+        }
+      ],
+      "total_communities": 153
+    },
+    "period3": {
+      "top_communities": [
+        {
+          "id": 105,
+          "title": "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "summary": "The community surrounding North Korea is characterized by its authoritarian regime, aggressive military posture, and ongoing nuclear weapons program. Key entities include North Korea itself, its nuclear talks with the United States, and various international responses, including sanctions from the U...",
+          "rank": 9.0,
+          "size": 254
+        },
+        {
+          "id": 76,
+          "title": "North Korea: Nuclear Ambitions and International Relations",
+          "summary": "The community surrounding North Korea is characterized by its authoritarian regime, aggressive military posture, and ongoing nuclear weapons program. Key entities include North Korea itself, its nuclear program, and the diplomatic negotiations with the United States. The relationships between these ...",
+          "rank": 9.0,
+          "size": 259
+        },
+        {
+          "id": 11,
+          "title": "Indian Nuclear Power Plant and North Korean Malware Threat",
+          "summary": "The community centers around the Indian Nuclear Power Plant, which is currently facing a significant cyber threat from North Korean malware. The relationship between the malware and the power plant indicates a direct risk to critical infrastructure, highlighting the potential vulnerabilities in nati...",
+          "rank": 9.0,
+          "size": 2
+        },
+        {
+          "id": 0,
+          "title": "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "summary": "The community surrounding North Korea is characterized by its authoritarian regime, nuclear weapons program, and significant international tensions, particularly with the United States and South Korea. Key entities include North Korea itself, its nuclear program, and various diplomatic talks aimed a...",
+          "rank": 9.0,
+          "size": 303
+        },
+        {
+          "id": 41,
+          "title": "Kim Jong Nam and North Korean Intrigue",
+          "summary": "This community report focuses on Kim Jong Nam, the estranged half-brother of North Korean leader Kim Jong Un, and the significant events surrounding his assassination in Malaysia. The relationships between Kim Jong Nam, Kim Jong Un, and various entities highlight the complex political dynamics withi...",
+          "rank": 9.0,
+          "size": 7
+        }
+      ],
+      "keywords": [
+        {
+          "word": "north",
+          "count": 170
+        },
+        {
+          "word": "korea",
+          "count": 147
+        },
+        {
+          "word": "international",
+          "count": 58
+        },
+        {
+          "word": "korean",
+          "count": 53
+        },
+        {
+          "word": "nuclear",
+          "count": 51
+        },
+        {
+          "word": "diplomatic",
+          "count": 44
+        },
+        {
+          "word": "highlight",
+          "count": 42
+        },
+        {
+          "word": "military",
+          "count": 38
+        },
+        {
+          "word": "kim",
+          "count": 37
+        },
+        {
+          "word": "relations",
+          "count": 34
+        },
+        {
+          "word": "trump",
+          "count": 33
+        },
+        {
+          "word": "security",
+          "count": 30
+        },
+        {
+          "word": "political",
+          "count": 30
+        },
+        {
+          "word": "complex",
+          "count": 26
+        },
+        {
+          "word": "include",
+          "count": 25
+        },
+        {
+          "word": "dynamics",
+          "count": 25
+        },
+        {
+          "word": "implications",
+          "count": 25
+        },
+        {
+          "word": "ongoing",
+          "count": 24
+        },
+        {
+          "word": "sanctions",
+          "count": 24
+        },
+        {
+          "word": "jong",
+          "count": 24
+        },
+        {
+          "word": "interactions",
+          "count": 24
+        },
+        {
+          "word": "tensions",
+          "count": 23
+        },
+        {
+          "word": "efforts",
+          "count": 22
+        },
+        {
+          "word": "united",
+          "count": 21
+        },
+        {
+          "word": "human",
+          "count": 21
+        }
+      ],
+      "findings": [
+        {
+          "community": "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "summary": "North Korea's Nuclear Program as a Central Concern",
+          "explanation": "North Korea's nuclear program is a pivotal element in its national defense strategy and plays a crucial role in its international relations. This program is not only a significant aspect of North Kore"
+        },
+        {
+          "community": "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "summary": "Ongoing Nuclear Talks with the United States",
+          "explanation": "North Korea has been a key participant in ongoing nuclear talks with the United States, which are primarily aimed at denuclearization and addressing its nuclear weapons program. These discussions are "
+        },
+        {
+          "community": "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "summary": "Impact of U.S. Sanctions on North Korea",
+          "explanation": "The U.S. Treasury has implemented sanctions on North Korea as a strategic measure to address and mitigate the country's nuclear ambitions and to prevent it from evading existing international sanction"
+        },
+        {
+          "community": "North Korea: Nuclear Ambitions and International Relations",
+          "summary": "North Korea's Nuclear Program as a Central Concern",
+          "explanation": "North Korea's nuclear program is a pivotal element of its national defense strategy and plays a crucial role in its international relations. This program is not only a significant aspect of North Kore"
+        },
+        {
+          "community": "North Korea: Nuclear Ambitions and International Relations",
+          "summary": "Tensions with the United States",
+          "explanation": "North Korea and the United States share a tense and adversarial relationship primarily centered around nuclear weapons, military threats, and regional security. This contentious dynamic is characteriz"
+        },
+        {
+          "community": "North Korea: Nuclear Ambitions and International Relations",
+          "summary": "The Role of Nuclear Talks",
+          "explanation": "North Korea has been a key participant in ongoing nuclear talks with the United States, which are primarily aimed at denuclearization and addressing its nuclear weapons program. These discussions are "
+        },
+        {
+          "community": "Indian Nuclear Power Plant and North Korean Malware Threat",
+          "summary": "Direct cyber threat to Indian Nuclear Power Plant",
+          "explanation": "The Indian Nuclear Power Plant is under a direct cyber threat from North Korean malware, which has been identified as targeting critical infrastructure. This relationship underscores the vulnerability"
+        },
+        {
+          "community": "Indian Nuclear Power Plant and North Korean Malware Threat",
+          "summary": "Nature of North Korean malware",
+          "explanation": "North Korean malware is specifically designed to infiltrate and disrupt networks, including those of critical infrastructure such as nuclear power plants. This type of malicious software poses a signi"
+        },
+        {
+          "community": "Indian Nuclear Power Plant and North Korean Malware Threat",
+          "summary": "Implications for national security",
+          "explanation": "The targeting of the Indian Nuclear Power Plant by North Korean malware has serious implications for national security. A successful cyber attack could compromise the safety and security of nuclear ma"
+        },
+        {
+          "community": "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "summary": "North Korea's Nuclear Program as a Central Concern",
+          "explanation": "North Korea's nuclear program is a pivotal element of its national defense strategy and plays a crucial role in its international relations. This program is not only a significant aspect of North Kore"
+        },
+        {
+          "community": "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "summary": "Tensions with the United States",
+          "explanation": "North Korea and the United States share a tense and adversarial relationship primarily centered around nuclear weapons, military threats, and regional security. This contentious dynamic is characteriz"
+        },
+        {
+          "community": "North Korea: A Community of Nuclear Ambitions and Human Rights Concerns",
+          "summary": "Human Rights Violations in North Korea",
+          "explanation": "North Korea is widely recognized for its severe human rights violations, which include a significant issue with sex trafficking, particularly affecting women and girls. The oppressive regime in North "
+        },
+        {
+          "community": "Kim Jong Nam and North Korean Intrigue",
+          "summary": "Kim Jong Nam's assassination as a pivotal event",
+          "explanation": "The assassination of Kim Jong Nam in 2017 at Kuala Lumpur International Airport is a critical event that underscores the extreme measures taken by the North Korean regime to eliminate perceived threat"
+        },
+        {
+          "community": "Kim Jong Nam and North Korean Intrigue",
+          "summary": "Familial ties and political rivalry",
+          "explanation": "The relationship between Kim Jong Nam and Kim Jong Un is marked by a complex interplay of familial loyalty and political ambition. As half-brothers, their connection is deeply rooted in the dynastic r"
+        },
+        {
+          "community": "Kim Jong Nam and North Korean Intrigue",
+          "summary": "The role of false passports in Kim Jong Nam's actions",
+          "explanation": "Kim Jong Nam's use of false passports indicates a level of deception and caution in his attempts to navigate the dangers posed by his familial connections. This tactic reflects the broader context of "
+        }
+      ],
+      "total_communities": 107
+    }
+  },
+  "graphrag_community_analysis": {
+    "entities": {
+      "pre_intervention_count": 2822,
+      "post_intervention_count": 1117,
+      "new_entities": 718,
+      "disappeared_entities": 2423,
+      "persistent_entities": 399,
+      "new_entity_examples": [
+        "NORTHROP GRUMMAN",
+        "FREEDOM GUARDIAN",
+        "SUMMIT COMMEMORATIVE MEDALLIONS",
+        "MACARTHUR",
+        "YAHOO",
+        "\u5e73\u58cc",
+        "DE-MILITARISED ZONE",
+        "SINGAPORE MEETING",
+        "COMPREHENSIVE DOCUMENT",
+        "FUKUSHIMA NO. 1 NUCLEAR PLANT",
+        "BANK ROBBER",
+        "SECOND TRUMP-KIM SUMMIT",
+        "U.S.-SOUTH KOREAN MILITARY EXERCISES",
+        "PREPARATION",
+        "LEE KEUM-SEOM",
+        "SUPREME COURT OF SOUTH KOREA",
+        "U.S. INTELLIGENCE AGENCIES",
+        "NARANG",
+        "NUCLEAR INSPECTIONS",
+        "MULTIPLE ROCKET LAUNCHER"
+      ],
+      "disappeared_examples": [
+        "RUSSIAN SCANDAL",
+        "US ARMY",
+        "IZUMO-CLASS",
+        "SWARM",
+        "HASSAN ROUHANI",
+        "JOHN MCCAIN",
+        "LANDSLIDES",
+        "OK RYU GWAN",
+        "MUKHO",
+        "BALKANS",
+        "VA OFFICE OF INSPECTOR GENERAL",
+        "6-PARTY TALKS",
+        "TIENANMEN SQUARE INCIDENT",
+        "RYOMYONG STREET",
+        "SOUTH KOREAN SPECIAL FORCES",
+        "DIRECT NEGOTIATIONS",
+        "WINTER PARALYMPICS",
+        "FR\u00c9D\u00c9RIC JOLIOT-CURIE",
+        "US/ROK WAR GAMES",
+        "CASTLE BRAVO"
+      ],
+      "type_distribution_pre": {
+        "EVENT": "654",
+        "POLICY": "546",
+        "PERSON": "457",
+        "ORGANIZATION": "419",
+        "WEAPON": "264",
+        "": "246",
+        "COUNTRY": "149",
+        "GEO": "62",
+        "CITY": "10",
+        "MILITARY ASSET": "3",
+        "MILITARY": "3",
+        "CULTURAL PHENOMENON": "2",
+        "CULTURAL ITEM": "1",
+        "DOCUMENT": "1",
+        "ETHNIC GROUP": "1",
+        "REGION": "1",
+        "MYTHICAL CREATURE": "1",
+        "FOOD": "1",
+        "LOCATION": "1"
+      },
+      "type_distribution_post": {
+        "EVENT": "230",
+        "POLICY": "217",
+        "ORGANIZATION": "184",
+        "PERSON": "172",
+        "": "111",
+        "COUNTRY": "94",
+        "WEAPON": "79",
+        "GEO": "22",
+        "CITY": "3",
+        "CURRENCY": "1",
+        "CULTURAL EVENT": "1",
+        "MOVIE": "1",
+        "STATE": "1",
+        "ANIMAL": "1"
+      }
+    },
+    "relationships": {
+      "pre_intervention_count": 4838,
+      "post_intervention_count": 1838,
+      "relationship_change": -3000,
+      "threat_pct_pre": 61.45,
+      "threat_pct_post": 42.44,
+      "threat_pct_change": -19.01,
+      "peace_pct_pre": 7.79,
+      "peace_pct_post": 24.7,
+      "peace_pct_change": 16.91,
+      "type_counts_pre": {
+        "threat": "2973",
+        "neutral": "1488",
+        "peace": "377"
+      },
+      "type_counts_post": {
+        "threat": "780",
+        "neutral": "604",
+        "peace": "454"
+      }
+    },
+    "key_actors": {
+      "KIM JONG UN": {
+        "connections_pre": "931",
+        "connections_post": "490",
+        "change": "-441"
+      },
+      "TRUMP": {
+        "connections_pre": "1019",
+        "connections_post": "467",
+        "change": "-552"
+      },
+      "NORTH KOREA": {
+        "connections_pre": "1844",
+        "connections_post": "597",
+        "change": "-1247"
+      },
+      "UNITED STATES": {
+        "connections_pre": "1256",
+        "connections_post": "476",
+        "change": "-780"
+      },
+      "SOUTH KOREA": {
+        "connections_pre": "475",
+        "connections_post": "190",
+        "change": "-285"
+      }
+    },
+    "communities": {
+      "community_count_pre": 354,
+      "community_count_post": 153,
+      "community_titles_pre": [
+        "North Korea: A Nuclear Pariah State",
+        "North Korea Nuclear Test Site and Closure Ceremony",
+        "North Korea: A Nuclear Pariah State",
+        "North Korean Missile Launches",
+        "North-South Korea Talks and Nuclear Disarming",
+        "North Korea: A Nuclear and Humanitarian Crisis",
+        "North Korea Missile Tests and Regional Implications",
+        "Missile Defense and Military Funding",
+        "North Korea's Military and Media Landscape",
+        "North Korea: Nuclear Ambitions and Military Posture"
+      ],
+      "community_titles_post": [
+        "North Korea and International Security Dynamics",
+        "North Korea's Ballistic Missile Threat and Onodera's Stance",
+        "North Korea: Nuclear Threat and Diplomatic Challenges",
+        "North Korea's Nuclear Weapons and IAEA Oversight",
+        "Human Rights Act and Economic Improvements in North Korea",
+        "US-South Korea Defense and Diplomacy Community",
+        "U.S. Military and American GOP",
+        "Second Summit and Hanoi Hilton",
+        "Nobel Peace Prize and Bank Robber Nomination",
+        "U.S.-North Korea Diplomatic Community"
+      ],
+      "avg_community_size_pre": 1.0,
+      "max_community_size_pre": 1,
+      "avg_community_size_post": 1.0,
+      "max_community_size_post": 1
+    },
+    "network_topology": {
+      "pre_intervention": {
+        "n_nodes": 2656,
+        "n_edges": 4838,
+        "density": 0.0014,
+        "avg_degree": 3.64,
+        "max_degree": 1514,
+        "top_entities": [
+          {
+            "entity": "NORTH KOREA",
+            "degree": 1514
+          },
+          {
+            "entity": "TRUMP",
+            "degree": 375
+          },
+          {
+            "entity": "SOUTH KOREA",
+            "degree": 341
+          },
+          {
+            "entity": "KIM JONG UN",
+            "degree": 219
+          },
+          {
+            "entity": "DONALD TRUMP",
+            "degree": 210
+          }
+        ]
+      },
+      "post_intervention": {
+        "n_nodes": 1043,
+        "n_edges": 1838,
+        "density": 0.0034,
+        "avg_degree": 3.52,
+        "max_degree": 479,
+        "top_entities": [
+          {
+            "entity": "NORTH KOREA",
+            "degree": 479
+          },
+          {
+            "entity": "TRUMP",
+            "degree": 178
+          },
+          {
+            "entity": "SOUTH KOREA",
+            "degree": 136
+          },
+          {
+            "entity": "KIM JONG UN",
+            "degree": 119
+          },
+          {
+            "entity": "DONALD TRUMP",
+            "degree": 92
+          }
+        ]
+      },
+      "density_change": 0.002,
+      "avg_degree_change": -0.12,
+      "nodes_change": -1613,
+      "edges_change": -3000
+    }
+  },
+  "graphrag_comparison_results": {
+    "period1": {
+      "entities": 131,
+      "relationships": 168,
+      "kim_connections": 11,
+      "trump_connections": 5,
+      "war_relations_pct": 58.333333333333336,
+      "peace_relations_pct": 5.357142857142857
+    },
+    "period2": {
+      "entities": 135,
+      "relationships": 173,
+      "kim_connections": 17,
+      "trump_connections": 18,
+      "war_relations_pct": 52.601156069364166,
+      "peace_relations_pct": 21.965317919075144
+    },
+    "changes": {
+      "entities_change": 4,
+      "relationships_change": 5,
+      "kim_connections_change": 6,
+      "trump_connections_change": 13,
+      "peace_relations_pct_change": 16.608175061932286
+    },
+    "h3_supported": true
+  },
+  "keyword_analysis_results": {
+    "threat_total_p1": 623,
+    "threat_total_p2": 327,
+    "peace_total_p1": 37,
+    "peace_total_p2": 109,
+    "threat_rate_p1": 1.6394736842105264,
+    "threat_rate_p2": 1.0030674846625767,
+    "peace_rate_p1": 0.09736842105263158,
+    "peace_rate_p2": 0.3343558282208589,
+    "ratio_p1": 16.83783783783784,
+    "ratio_p2": 3.0,
+    "chi2": 83.8543176752076,
+    "pvalue": 5.326114415713437e-20
+  },
+  "graphrag_period1_stats": {
+    "total_entities": 131,
+    "total_relationships": 168,
+    "kim_jong_un_connections": 4,
+    "entity_types": {
+      "EVENT": 36,
+      "ORGANIZATION": 34,
+      "GEO": 28,
+      "PERSON": 26,
+      "": 7
+    },
+    "top_entities": [
+      "NORTH KOREA",
+      "SOUTH KOREA",
+      "KOREAN PENINSULA",
+      "US",
+      "UNITED STATES",
+      "CHINA",
+      "KOREAN WAR",
+      "KIM JONG-UN",
+      "SEOUL",
+      "DPRK",
+      "MOON",
+      "NUCLEAR PROGRAM",
+      "USA",
+      "KIM JONG UN",
+      "THAAD",
+      "NUCLEAR WAR",
+      "ROK",
+      "MISSILE LAUNCH",
+      "PENTAGON",
+      "TRUMP ADMINISTRATION"
+    ]
+  }
+}

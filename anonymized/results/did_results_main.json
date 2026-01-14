@@ -1,0 +1,933 @@
+{
+  "framing_did_monthly_clean": [
+    {
+      "event": "Singapore",
+      "control": "China",
+      "did_estimate": 1.17,
+      "ci_lower": 0.56,
+      "ci_upper": 1.78,
+      "p_value": 0.0027,
+      "significant": "**"
+    },
+    {
+      "event": "Singapore",
+      "control": "Iran",
+      "did_estimate": 0.69,
+      "ci_lower": 0.07,
+      "ci_upper": 1.31,
+      "p_value": 0.0333,
+      "significant": "*"
+    },
+    {
+      "event": "Hanoi",
+      "control": "China",
+      "did_estimate": -0.56,
+      "ci_lower": -1.2,
+      "ci_upper": 0.08,
+      "p_value": 0.0768,
+      "significant": ""
+    },
+    {
+      "event": "Hanoi",
+      "control": "Iran",
+      "did_estimate": -0.16,
+      "ci_lower": -0.83,
+      "ci_upper": 0.51,
+      "p_value": 0.5896,
+      "significant": ""
+    }
+  ],
+  "did_russia_results": {
+    "control_group": "Russia",
+    "n_observations": 58,
+    "n_treatment": 30,
+    "n_control": 28,
+    "ols": {
+      "did_estimate": 0.006705217473883079,
+      "se": 0.0068097802061951,
+      "p_value": 0.3294467612801547,
+      "ci_lower": -0.006965986747492227,
+      "ci_upper": 0.020376421695258384,
+      "r_squared": 0.1470993051060132,
+      "beta4_pre_trend_diff": -0.00288168798246537,
+      "beta4_pvalue": 0.6506710540301917,
+      "beta5_level_change": -0.03643050414918348,
+      "beta5_pvalue": 0.7668655817685579
+    },
+    "slopes": {
+      "nk_pre_slope": -0.0021156270216780254,
+      "nk_post_slope": 0.004589590452205054,
+      "nk_slope_change": 0.00670521747388308,
+      "control_pre_slope": 0.0007660609607873444,
+      "control_post_slope": 0.0007660609607873444,
+      "control_slope_change": 0.0
+    },
+    "clustered": {
+      "did_estimate": 0.006705217473883079,
+      "se": 0.004527452574777602,
+      "p_value": 0.13860302966062144,
+      "ci_lower": -0.002168426514394156,
+      "ci_upper": 0.015578861462160313
+    }
+  },
+  "framing_did_slope_results": {
+    "Iran": {
+      "control_group": "Iran",
+      "did_estimate_monthly": -0.08626170579133717,
+      "se": 0.0335297617402099,
+      "p_value": 0.010091134902089148,
+      "ci_lower": -0.15198003880214855,
+      "ci_upper": -0.020543372780525773,
+      "cumulative_15mo": -1.2939255868700577,
+      "n_obs": 72,
+      "r_squared": 0.46517446813755403
+    },
+    "Russia": {
+      "control_group": "Russia",
+      "did_estimate_monthly": -0.08626170579133743,
+      "se": 0.033529761740209996,
+      "p_value": 0.010091134902089125,
+      "ci_lower": -0.15198003880214903,
+      "ci_upper": -0.020543372780525843,
+      "cumulative_15mo": -1.2939255868700614,
+      "n_obs": 72,
+      "r_squared": 0.3861419362130325
+    },
+    "China": {
+      "control_group": "China",
+      "did_estimate_monthly": -0.08626170579133746,
+      "se": 0.0335297617402099,
+      "p_value": 0.010091134902088903,
+      "ci_lower": -0.15198003880214886,
+      "ci_upper": -0.020543372780526065,
+      "cumulative_15mo": -1.2939255868700619,
+      "n_obs": 72,
+      "r_squared": 0.4700307730584281
+    }
+  },
+  "framing_did_level_results": {
+    "Iran": {
+      "control_group": "Iran",
+      "did_estimate": 0.6994561553843129,
+      "se": 0.18742863594066453,
+      "p_value": 0.00019007626275892629,
+      "ci_lower": 0.33209602894061047,
+      "ci_upper": 1.0668162818280154,
+      "means": {
+        "nk_pre": -0.9591970109959528,
+        "nk_post": -0.12051616686785166,
+        "control_pre": -0.9029154802924105,
+        "control_post": -0.7636907915486233
+      },
+      "n_obs": 72,
+      "r_squared": 0.3979138845372784
+    },
+    "Russia": {
+      "control_group": "Russia",
+      "did_estimate": 0.8609581998513902,
+      "se": 0.24448631161788703,
+      "p_value": 0.00042911496144148336,
+      "ci_lower": 0.38176502908033166,
+      "ci_upper": 1.3401513706224488,
+      "means": {
+        "nk_pre": -0.9591970109959528,
+        "nk_post": -0.12051616686785166,
+        "control_pre": -0.5237300479477028,
+        "control_post": -0.5460074036709931
+      },
+      "n_obs": 72,
+      "r_squared": 0.29289872013718377
+    },
+    "China": {
+      "control_group": "China",
+      "did_estimate": 0.9922259838804017,
+      "se": 0.21140125507646,
+      "p_value": 2.684818208590466e-06,
+      "ci_lower": 0.5778795239305401,
+      "ci_upper": 1.4065724438302634,
+      "means": {
+        "nk_pre": -0.9591970109959528,
+        "nk_post": -0.12051616686785166,
+        "control_pre": -0.7135307304510824,
+        "control_post": -0.8670758702033843
+      },
+      "n_obs": 72,
+      "r_squared": 0.38384869005111166
+    }
+  },
+  "sentiment_did_results": {
+    "parallel_trends": {
+      "interaction_coef": 0.0022153905196167388,
+      "interaction_p_value": 0.7347194062024822,
+      "parallel_trends_holds": 1.0
+    },
+    "all_controls": {
+      "control_group": "all",
+      "n_observations": 120,
+      "n_nk": 30,
+      "n_control": 90,
+      "pre_treatment_mean": -0.24405010848994305,
+      "post_treatment_mean": -0.17672618635424353,
+      "pre_control_mean": -0.24195538360838492,
+      "post_control_mean": -0.27561526468274306,
+      "did_simple": 0.10098380321005765,
+      "did_coefficient": 0.10098380321005793,
+      "did_std_error": 0.03419355376631534,
+      "did_t_stat": 2.9532994405962802,
+      "did_p_value": 0.0031439682987589846,
+      "did_ci_lower": 0.03396566932464594,
+      "did_ci_upper": 0.1680019370954699,
+      "r_squared": 0.135364150892769,
+      "r_squared_adj": 0.11300287893309913
+    },
+    "individual_controls": {
+      "iran": {
+        "control_group": "iran",
+        "n_observations": 60,
+        "n_nk": 30,
+        "n_control": 30,
+        "pre_treatment_mean": -0.24405010848994305,
+        "post_treatment_mean": -0.17672618635424353,
+        "pre_control_mean": -0.30603823365320454,
+        "post_control_mean": -0.30800138700143254,
+        "did_simple": 0.06928707548392751,
+        "did_coefficient": 0.06928707548392747,
+        "did_std_error": 0.03779472741460005,
+        "did_t_stat": 1.8332471279356806,
+        "did_p_value": 0.06676582822890986,
+        "did_ci_lower": -0.00478922905419725,
+        "did_ci_upper": 0.14336338002205218,
+        "r_squared": 0.37500003200356324,
+        "r_squared_adj": 0.341517890860897
+      },
+      "russia": {
+        "control_group": "russia",
+        "n_observations": 60,
+        "n_nk": 30,
+        "n_control": 30,
+        "pre_treatment_mean": -0.24405010848994305,
+        "post_treatment_mean": -0.17672618635424353,
+        "pre_control_mean": -0.27516480785567343,
+        "post_control_mean": -0.2993161568444516,
+        "did_simple": 0.0914752711244777,
+        "did_coefficient": 0.09147527112447768,
+        "did_std_error": 0.03602534503727608,
+        "did_t_stat": 2.5391920890647004,
+        "did_p_value": 0.011110880039985725,
+        "did_ci_lower": 0.020866892320787797,
+        "did_ci_upper": 0.16208364992816754,
+        "r_squared": 0.3293764151851115,
+        "r_squared_adj": 0.29345015171288535
+      },
+      "china": {
+        "control_group": "china",
+        "n_observations": 60,
+        "n_nk": 30,
+        "n_control": 30,
+        "pre_treatment_mean": -0.24405010848994305,
+        "post_treatment_mean": -0.17672618635424353,
+        "pre_control_mean": -0.14466310931627685,
+        "post_control_mean": -0.21952825020234512,
+        "did_simple": 0.1421890630217678,
+        "did_coefficient": 0.1421890630217677,
+        "did_std_error": 0.03668085961915327,
+        "did_t_stat": 3.8763830645757906,
+        "did_p_value": 0.00010602072641443748,
+        "did_ci_lower": 0.0702958992462577,
+        "did_ci_upper": 0.2140822267972777,
+        "r_squared": 0.22699767339008847,
+        "r_squared_adj": 0.18558683446455748
+      }
+    }
+  },
+  "framing_did_clean_periods": [
+    {
+      "event": "Singapore",
+      "control": "China",
+      "did_estimate": 1.16,
+      "ci_lower": 1.02,
+      "ci_upper": 1.3,
+      "p_value": 0.0,
+      "significant": "***"
+    },
+    {
+      "event": "Singapore",
+      "control": "Iran",
+      "did_estimate": 0.85,
+      "ci_lower": 0.66,
+      "ci_upper": 1.05,
+      "p_value": 0.0,
+      "significant": "***"
+    },
+    {
+      "event": "Hanoi",
+      "control": "China",
+      "did_estimate": -0.58,
+      "ci_lower": -0.74,
+      "ci_upper": -0.42,
+      "p_value": 0.0,
+      "significant": "***"
+    },
+    {
+      "event": "Hanoi",
+      "control": "Iran",
+      "did_estimate": 0.18,
+      "ci_lower": -0.03,
+      "ci_upper": 0.38,
+      "p_value": 0.0957,
+      "significant": ""
+    }
+  ],
+  "did_all_controls_results": {
+    "Iran": {
+      "control_group": "Iran",
+      "n_observations": 59,
+      "n_treatment": 30,
+      "n_control": 29,
+      "ols": {
+        "did_estimate": 0.006705217473883101,
+        "se": 0.007059878877703938,
+        "p_value": 0.34662577678910955,
+        "ci_lower": -0.007461465920184001,
+        "ci_upper": 0.020871900867950204,
+        "r_squared": 0.11789052996621485,
+        "beta4_pre_trend_diff": 0.0015291492946439265,
+        "beta4_pvalue": 0.8134473883482076,
+        "beta5_level_change": -0.10521624323566221,
+        "beta5_pvalue": 0.401003954071701
+      },
+      "slopes": {
+        "nk_pre_slope": -0.002115627021678054,
+        "nk_post_slope": 0.004589590452205047,
+        "nk_slope_change": 0.006705217473883101,
+        "control_pre_slope": -0.0036447763163219805,
+        "control_post_slope": -0.0036447763163219805,
+        "control_slope_change": 0.0
+      },
+      "clustered": {
+        "did_estimate": 0.006705217473883101,
+        "se": 0.004522867811500552,
+        "p_value": 0.13820342705085312,
+        "ci_lower": -0.0021594405434934762,
+        "ci_upper": 0.015569875491259677
+      }
+    },
+    "Russia": {
+      "control_group": "Russia",
+      "n_observations": 58,
+      "n_treatment": 30,
+      "n_control": 28,
+      "ols": {
+        "did_estimate": 0.006705217473883079,
+        "se": 0.0068097802061951,
+        "p_value": 0.3294467612801547,
+        "ci_lower": -0.006965986747492227,
+        "ci_upper": 0.020376421695258384,
+        "r_squared": 0.1470993051060132,
+        "beta4_pre_trend_diff": -0.00288168798246537,
+        "beta4_pvalue": 0.6506710540301917,
+        "beta5_level_change": -0.03643050414918348,
+        "beta5_pvalue": 0.7668655817685579
+      },
+      "slopes": {
+        "nk_pre_slope": -0.0021156270216780254,
+        "nk_post_slope": 0.004589590452205054,
+        "nk_slope_change": 0.00670521747388308,
+        "control_pre_slope": 0.0007660609607873444,
+        "control_post_slope": 0.0007660609607873444,
+        "control_slope_change": 0.0
+      },
+      "clustered": {
+        "did_estimate": 0.006705217473883079,
+        "se": 0.004527452574777602,
+        "p_value": 0.13860302966062144,
+        "ci_lower": -0.002168426514394156,
+        "ci_upper": 0.015578861462160313
+      }
+    },
+    "China": {
+      "control_group": "China",
+      "n_observations": 59,
+      "n_treatment": 30,
+      "n_control": 29,
+      "ols": {
+        "did_estimate": 0.006705217473883092,
+        "se": 0.005293660407686576,
+        "p_value": 0.21092464388971577,
+        "ci_lower": -0.003917289270282728,
+        "ci_upper": 0.01732772421804891,
+        "r_squared": 0.3677838348164586,
+        "beta4_pre_trend_diff": -0.005588449065802049,
+        "beta4_pvalue": 0.25626819193222355,
+        "beta5_level_change": 0.021399511395371953,
+        "beta5_pvalue": 0.8205406169018915
+      },
+      "slopes": {
+        "nk_pre_slope": -0.002115627021678013,
+        "nk_post_slope": 0.004589590452205079,
+        "nk_slope_change": 0.006705217473883092,
+        "control_pre_slope": 0.0034728220441240364,
+        "control_post_slope": 0.0034728220441240364,
+        "control_slope_change": 0.0
+      },
+      "clustered": {
+        "did_estimate": 0.006705217473883092,
+        "se": 0.0045228678115005,
+        "p_value": 0.1382034270508491,
+        "ci_lower": -0.0021594405434933826,
+        "ci_upper": 0.015569875491259566
+      }
+    }
+  },
+  "framing_parallel_trends_results": {
+    "Iran": {
+      "control_group": "Iran",
+      "beta4_treat_time": 0.011618738751712364,
+      "se": 0.029048011340509477,
+      "p_value": 0.6891683272312344,
+      "pass": true,
+      "n_obs": 28
+    },
+    "Russia": {
+      "control_group": "Russia",
+      "beta4_treat_time": 0.08837380060417227,
+      "se": 0.033611641949655664,
+      "p_value": 0.0085570498209868,
+      "pass": false,
+      "n_obs": 28
+    },
+    "China": {
+      "control_group": "China",
+      "beta4_treat_time": 0.06722563135648127,
+      "se": 0.0354146908411264,
+      "p_value": 0.05766429304291891,
+      "pass": false,
+      "n_obs": 28
+    }
+  },
+  "framing_did_with_ci": [
+    {
+      "event": "Singapore",
+      "control": "China",
+      "did_estimate": 1.17,
+      "ci_lower": 0.56,
+      "ci_upper": 1.78,
+      "p_value": 0.0027,
+      "significant": "**"
+    },
+    {
+      "event": "Singapore",
+      "control": "Iran",
+      "did_estimate": 0.69,
+      "ci_lower": 0.07,
+      "ci_upper": 1.31,
+      "p_value": 0.0333,
+      "significant": "*"
+    },
+    {
+      "event": "Hanoi",
+      "control": "China",
+      "did_estimate": -0.56,
+      "ci_lower": -1.2,
+      "ci_upper": 0.08,
+      "p_value": 0.0768,
+      "significant": ""
+    },
+    {
+      "event": "Hanoi",
+      "control": "Iran",
+      "did_estimate": -0.16,
+      "ci_lower": -0.83,
+      "ci_upper": 0.51,
+      "p_value": 0.5896,
+      "significant": ""
+    }
+  ],
+  "hanoi_3period_did_results": {
+    "analysis": "3-Period DID Analysis: Hanoi Summit Impact",
+    "periods": {
+      "pre_singapore": {
+        "name": "Pre-Singapore Summit",
+        "start": "2017-01",
+        "end": "2018-05",
+        "period_id": 1
+      },
+      "singapore_hanoi": {
+        "name": "Singapore to Hanoi",
+        "start": "2018-06",
+        "end": "2019-02",
+        "period_id": 2
+      },
+      "post_hanoi": {
+        "name": "Post-Hanoi Collapse",
+        "start": "2019-03",
+        "end": "2019-06",
+        "period_id": 3
+      }
+    },
+    "did_results": {
+      "singapore_effect": {
+        "comparison": "Singapore Summit Effect",
+        "period_pre": 1,
+        "period_post": 2,
+        "nk_pre": -0.6915411591948865,
+        "nk_post": 0.039629083519603196,
+        "nk_change": 0.7311702427144896,
+        "china_pre": -0.5206564494879276,
+        "china_post": -0.7485121334876728,
+        "china_change": -0.2278556839997452,
+        "did_estimate": 0.9590259267142348,
+        "did_coefficient": 0.9590259267142356,
+        "did_pvalue": 0.0017615591802008063,
+        "did_ci_lower": 0.358062848039181,
+        "did_ci_upper": 1.5599890053892902,
+        "cohens_d": 1.6445867816071509,
+        "significant": true
+      },
+      "hanoi_effect": {
+        "comparison": "Hanoi Collapse Effect",
+        "period_pre": 2,
+        "period_post": 3,
+        "nk_pre": 0.039629083519603196,
+        "nk_post": 0.051995879056009386,
+        "nk_change": 0.01236679553640619,
+        "china_pre": -0.7485121334876728,
+        "china_post": -0.34850971749699167,
+        "china_change": 0.4000024159906811,
+        "did_estimate": -0.3876356204542749,
+        "did_coefficient": -0.3876356204542751,
+        "did_pvalue": 0.3201435899770614,
+        "did_ci_lower": -1.151848297859045,
+        "did_ci_upper": 0.37657705695049487,
+        "cohens_d": -0.6970406275303702,
+        "significant": false
+      },
+      "overall_change": {
+        "comparison": "Overall Change",
+        "period_pre": 1,
+        "period_post": 3,
+        "nk_pre": -0.6915411591948865,
+        "nk_post": 0.051995879056009386,
+        "nk_change": 0.7435370382508959,
+        "china_pre": -0.5206564494879276,
+        "china_post": -0.34850971749699167,
+        "china_change": 0.1721467319909359,
+        "did_estimate": 0.57139030625996,
+        "did_coefficient": 0.5713903062599589,
+        "did_pvalue": 0.1220037653731282,
+        "did_ci_lower": -0.15280248527582907,
+        "did_ci_upper": 1.2955830977957468,
+        "cohens_d": 1.0205939316681476,
+        "significant": false
+      }
+    },
+    "period_statistics": {
+      "period_1": {
+        "name": "Pre-Singapore Summit",
+        "mean_framing": -0.6915411591948865,
+        "std_framing": 0.7237110883257384,
+        "total_posts": 5822,
+        "n_months": 17
+      },
+      "period_2": {
+        "name": "Singapore to Hanoi",
+        "mean_framing": 0.039629083519603196,
+        "std_framing": 0.5974873616528996,
+        "total_posts": 1699,
+        "n_months": 9
+      },
+      "period_3": {
+        "name": "Post-Hanoi Collapse",
+        "mean_framing": 0.051995879056009386,
+        "std_framing": 0.48520782778096944,
+        "total_posts": 1486,
+        "n_months": 4
+      },
+      "ttests": {
+        "p1_vs_p2": {
+          "t_stat": -2.592246403880019,
+          "p_value": 0.015981941183404628
+        },
+        "p2_vs_p3": {
+          "t_stat": -0.03616374462507533,
+          "p_value": 0.9717997255557995
+        },
+        "p1_vs_p3": {
+          "t_stat": -1.9347649075285176,
+          "p_value": 0.06804941679271756
+        }
+      }
+    },
+    "control_group": "China",
+    "treatment_group": "North Korea"
+  },
+  "did_iran_results": {
+    "control_group": "Iran",
+    "n_observations": 59,
+    "n_treatment": 30,
+    "n_control": 29,
+    "ols": {
+      "did_estimate": 0.006705217473883101,
+      "se": 0.007059878877703938,
+      "p_value": 0.34662577678910955,
+      "ci_lower": -0.007461465920184001,
+      "ci_upper": 0.020871900867950204,
+      "r_squared": 0.11789052996621485,
+      "beta4_pre_trend_diff": 0.0015291492946439265,
+      "beta4_pvalue": 0.8134473883482076,
+      "beta5_level_change": -0.10521624323566221,
+      "beta5_pvalue": 0.401003954071701
+    },
+    "slopes": {
+      "nk_pre_slope": -0.002115627021678054,
+      "nk_post_slope": 0.004589590452205047,
+      "nk_slope_change": 0.006705217473883101,
+      "control_pre_slope": -0.0036447763163219805,
+      "control_post_slope": -0.0036447763163219805,
+      "control_slope_change": 0.0
+    },
+    "clustered": {
+      "did_estimate": 0.006705217473883101,
+      "se": 0.004522867811500552,
+      "p_value": 0.13820342705085312,
+      "ci_lower": -0.0021594405434934762,
+      "ci_upper": 0.015569875491259677
+    }
+  },
+  "did_level_change_results": {
+    "Iran": {
+      "did_estimate": 0.06271334158796679,
+      "se": 0.03938320338299564,
+      "p_value": 0.11129754447833047,
+      "ci_lower": -0.014476318638520683,
+      "ci_upper": 0.13990300181445425,
+      "means": {
+        "nk_pre": -0.3621447547281834,
+        "nk_post": -0.313132309009464,
+        "control_pre": -0.29836675436274757,
+        "control_post": -0.312067650231995
+      }
+    },
+    "Russia": {
+      "did_estimate": 0.06369917312263426,
+      "se": 0.04620767068327409,
+      "p_value": 0.16803628778920954,
+      "ci_lower": -0.026866197226070268,
+      "ci_upper": 0.15426454347133878,
+      "means": {
+        "nk_pre": -0.3621447547281834,
+        "nk_post": -0.313132309009464,
+        "control_pre": -0.28334109107763256,
+        "control_post": -0.2980278184815474
+      }
+    },
+    "China": {
+      "did_estimate": 0.07984742385893101,
+      "se": 0.02858299936091766,
+      "p_value": 0.005213643163959813,
+      "ci_lower": 0.023825774541401015,
+      "ci_upper": 0.13586907317646102,
+      "means": {
+        "nk_pre": -0.3621447547281834,
+        "nk_post": -0.313132309009464,
+        "control_pre": -0.24581210784899293,
+        "control_post": -0.2766470859892046
+      }
+    }
+  },
+  "did_iran_combined_results": {
+    "model_type": "DID_ITS_style",
+    "data_source": "combined_posts_comments",
+    "standard_errors": "HAC_Newey_West_lag3",
+    "level_change": {
+      "coefficient": -0.02241038457943018,
+      "se_ols": 0.08738421527741835,
+      "se_hac": 0.09329885388388978,
+      "pvalue": 0.8101752147064164,
+      "ci_lower": -0.20527277799071908,
+      "ci_upper": 0.16045200883185873
+    },
+    "slope_change": {
+      "coefficient": 0.0015329881648522207,
+      "se_ols": 0.01019937126411388,
+      "se_hac": 0.00944178955888896,
+      "pvalue": 0.8710207659518945,
+      "ci_lower": -0.016972579320176463,
+      "ci_upper": 0.020038555649880906
+    },
+    "basic_2x2_did": {
+      "coefficient": 0.06271334158796679,
+      "se_hac": 0.05219352635178228,
+      "pvalue": 0.22953636370433417,
+      "ci_lower": -0.039584090287668725,
+      "ci_upper": 0.16501077346360232
+    }
+  },
+  "binary_did_robustness_results": {
+    "threat_China": {
+      "outcome": "threat_prop",
+      "control": "China",
+      "did_estimate": -0.1697538388553519,
+      "se": 0.07168015605223543,
+      "p_value": 0.017874268137695,
+      "ci_lower": -0.31024694471773334,
+      "ci_upper": -0.02926073299297044,
+      "means": {
+        "nk_pre": 0.6463242699530712,
+        "nk_post": 0.41679150895084477,
+        "control_pre": 0.4123712933111351,
+        "control_post": 0.3525923711642602
+      },
+      "n_obs": 72,
+      "r_squared": 0.34591653685629464
+    },
+    "diplomacy_China": {
+      "outcome": "diplomacy_prop",
+      "control": "China",
+      "did_estimate": 0.26409062093921515,
+      "se": 0.05512343002790529,
+      "p_value": 1.6603816936791542e-06,
+      "ci_lower": 0.15604869808452076,
+      "ci_upper": 0.37213254379390953,
+      "means": {
+        "nk_pre": 0.18473447101725143,
+        "nk_post": 0.3796708985187102,
+        "control_pre": 0.15715419936106875,
+        "control_post": 0.08800000592331234
+      },
+      "n_obs": 72,
+      "r_squared": 0.5493878264337915
+    },
+    "threat_Iran": {
+      "outcome": "threat_prop",
+      "control": "Iran",
+      "did_estimate": -0.2270546818423993,
+      "se": 0.06823777227656677,
+      "p_value": 0.0008765897724530627,
+      "ci_lower": -0.3608007155044701,
+      "ci_upper": -0.09330864818032844,
+      "means": {
+        "nk_pre": 0.6463242699530712,
+        "nk_post": 0.41679150895084477,
+        "control_pre": 0.5295577819469864,
+        "control_post": 0.5270797027871589
+      },
+      "n_obs": 72,
+      "r_squared": 0.26156133757566713
+    },
+    "diplomacy_Iran": {
+      "outcome": "diplomacy_prop",
+      "control": "Iran",
+      "did_estimate": 0.1610623428035169,
+      "se": 0.05469309356169316,
+      "p_value": 0.0032312298619619974,
+      "ci_lower": 0.05386387942259829,
+      "ci_upper": 0.2682608061844355,
+      "means": {
+        "nk_pre": 0.18473447101725143,
+        "nk_post": 0.3796708985187102,
+        "control_pre": 0.16432248326717688,
+        "control_post": 0.19819656796511864
+      },
+      "n_obs": 72,
+      "r_squared": 0.39988815928759935
+    }
+  },
+  "sentiment_did_clean_periods": [
+    {
+      "event": "Singapore",
+      "control": "China",
+      "did_estimate": 0.21,
+      "ci_lower": 0.18,
+      "ci_upper": 0.24,
+      "p_value": 0.0,
+      "significant": "***"
+    },
+    {
+      "event": "Singapore",
+      "control": "Iran",
+      "did_estimate": 0.1,
+      "ci_lower": 0.06,
+      "ci_upper": 0.13,
+      "p_value": 0.0,
+      "significant": "***"
+    },
+    {
+      "event": "Singapore",
+      "control": "Russia",
+      "did_estimate": 0.14,
+      "ci_lower": 0.11,
+      "ci_upper": 0.16,
+      "p_value": 0.0,
+      "significant": "***"
+    },
+    {
+      "event": "Hanoi",
+      "control": "China",
+      "did_estimate": -0.11,
+      "ci_lower": -0.14,
+      "ci_upper": -0.08,
+      "p_value": 0.0,
+      "significant": "***"
+    },
+    {
+      "event": "Hanoi",
+      "control": "Iran",
+      "did_estimate": -0.06,
+      "ci_lower": -0.1,
+      "ci_upper": -0.02,
+      "p_value": 0.001,
+      "significant": "**"
+    },
+    {
+      "event": "Hanoi",
+      "control": "Russia",
+      "did_estimate": -0.12,
+      "ci_lower": -0.15,
+      "ci_upper": -0.1,
+      "p_value": 0.0,
+      "significant": "***"
+    }
+  ],
+  "did_china_results": {
+    "control_group": "China",
+    "n_observations": 221,
+    "n_treatment": 128,
+    "n_control": 93,
+    "ols": {
+      "did_estimate": 0.007429018942368486,
+      "se": 0.005547696724473601,
+      "p_value": 0.18195296771476968,
+      "ci_lower": -0.0035061085253286182,
+      "ci_upper": 0.01836414641006559,
+      "r_squared": 0.04930786977189805,
+      "beta4_pre_trend_diff": -0.005233197839700568,
+      "beta4_pvalue": 0.32752996843085014,
+      "beta5_level_change": -0.04062619006443222,
+      "beta5_pvalue": 0.6957324766388273
+    },
+    "slopes": {
+      "nk_pre_slope": -0.004703784479209756,
+      "nk_post_slope": 0.00272523446315873,
+      "nk_slope_change": 0.007429018942368486,
+      "control_pre_slope": 0.0005294133604908124,
+      "control_post_slope": 0.0005294133604908124,
+      "control_slope_change": 0.0
+    },
+    "clustered": {
+      "did_estimate": 0.007429018942368486,
+      "se": 0.004762725972966701,
+      "p_value": 0.11880124677252969,
+      "ci_lower": -0.001905752432879734,
+      "ci_upper": 0.016763790317616704
+    }
+  },
+  "sentiment_did_with_ci": [
+    {
+      "event": "Singapore",
+      "control": "China",
+      "did_estimate": 0.2,
+      "se": 0.0145,
+      "ci_lower": 0.17,
+      "ci_upper": 0.22,
+      "t_stat": 13.4711,
+      "p_value": 0.0,
+      "n_treatment_p1": 5822,
+      "n_treatment_p2": 1699,
+      "n_control_p1": 2545,
+      "n_control_p2": 1074,
+      "significant": "***"
+    },
+    {
+      "event": "Singapore",
+      "control": "Iran",
+      "did_estimate": 0.08,
+      "se": 0.0168,
+      "ci_lower": 0.04,
+      "ci_upper": 0.11,
+      "t_stat": 4.6138,
+      "p_value": 0.0,
+      "n_treatment_p1": 5822,
+      "n_treatment_p2": 1699,
+      "n_control_p1": 2093,
+      "n_control_p2": 558,
+      "significant": "***"
+    },
+    {
+      "event": "Singapore",
+      "control": "Russia",
+      "did_estimate": 0.11,
+      "se": 0.0113,
+      "ci_lower": 0.09,
+      "ci_upper": 0.13,
+      "t_stat": 9.8142,
+      "p_value": 0.0,
+      "n_treatment_p1": 5822,
+      "n_treatment_p2": 1699,
+      "n_control_p1": 3976,
+      "n_control_p2": 2184,
+      "significant": "***"
+    },
+    {
+      "event": "Hanoi",
+      "control": "China",
+      "did_estimate": -0.11,
+      "se": 0.0146,
+      "ci_lower": -0.13,
+      "ci_upper": -0.08,
+      "t_stat": -7.2212,
+      "p_value": 0.0,
+      "n_treatment_p1": 1699,
+      "n_treatment_p2": 3138,
+      "n_control_p1": 1074,
+      "n_control_p2": 4405,
+      "significant": "***"
+    },
+    {
+      "event": "Hanoi",
+      "control": "Iran",
+      "did_estimate": -0.05,
+      "se": 0.0167,
+      "ci_lower": -0.08,
+      "ci_upper": -0.01,
+      "t_stat": -2.8578,
+      "p_value": 0.0044,
+      "n_treatment_p1": 1699,
+      "n_treatment_p2": 3138,
+      "n_control_p1": 558,
+      "n_control_p2": 3332,
+      "significant": "**"
+    },
+    {
+      "event": "Hanoi",
+      "control": "Russia",
+      "did_estimate": -0.1,
+      "se": 0.0121,
+      "ci_lower": -0.13,
+      "ci_upper": -0.08,
+      "t_stat": -8.5877,
+      "p_value": 0.0,
+      "n_treatment_p1": 1699,
+      "n_treatment_p2": 3138,
+      "n_control_p1": 2184,
+      "n_control_p2": 4101,
+      "significant": "***"
+    }
+  ],
+  "parallel_trends_tests": {
+    "Iran": {
+      "verdict": "PASS",
+      "coefficient": 0.002891838976360698,
+      "p_value": 0.9236073498072412,
+      "nk_slope": -0.016744656236286844,
+      "control_slope": -0.019636495212647542,
+      "slope_difference": 0.002891838976360698,
+      "threshold": 0.1,
+      "model_summary": {
+        "r_squared": 0.06853496619548571,
+        "n_obs": 27
+      },
+      "control_group": "Iran"
+    }
+  }
+}

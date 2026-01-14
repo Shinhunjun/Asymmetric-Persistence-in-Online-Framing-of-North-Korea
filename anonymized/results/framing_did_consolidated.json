@@ -1,0 +1,191 @@
+{
+  "openai_framing_results": {
+    "method": "OpenAI GPT-4o-mini",
+    "sample_size_per_period": 150,
+    "period1": {
+      "name": "Tension (2017.01-2018.02)",
+      "total_valid": 150,
+      "frame_distribution": {
+        "THREAT": 105,
+        "NEUTRAL": 25,
+        "DIPLOMACY": 13,
+        "HUMANITARIAN": 4,
+        "ECONOMIC": 3
+      },
+      "threat_pct": 70.0,
+      "diplomacy_pct": 8.666666666666668
+    },
+    "period2": {
+      "name": "Diplomacy (2018.06-2019.06)",
+      "total_valid": 150,
+      "frame_distribution": {
+        "THREAT": 61,
+        "DIPLOMACY": 47,
+        "NEUTRAL": 31,
+        "ECONOMIC": 7,
+        "HUMANITARIAN": 4
+      },
+      "threat_pct": 40.666666666666664,
+      "diplomacy_pct": 31.333333333333336
+    },
+    "comparison": {
+      "threat_change": -29.333333333333336,
+      "diplomacy_change": 22.666666666666668,
+      "chi2": 33.17217441193345,
+      "p_value": 1.101344208811887e-06
+    },
+    "detailed_results": {
+      "period1": [
+        {
+          "frame": "HUMANITARIAN",
+          "confidence": 0.8,
+          "reason": "The post discusses sanctions in the context of human rights violations and genocide."
+        },
+        {
+          "frame": "THREAT",
+          "confidence": 0.8,
+          "reason": "The post discusses a collapse at a nuclear test site, indicating a focus on military and danger."
+        },
+        {
+          "frame": "THREAT",
+          "confidence": 0.8,
+          "reason": "The post discusses the potential for military aggression and retaliation from North Korea."
+        },
+        {
+          "frame": "THREAT",
+          "confidence": 0.8,
+          "reason": "The post discusses North Korea's nuclear ambitions, indicating a focus on military and potential danger."
+        },
+        {
+          "frame": "NEUTRAL",
+          "confidence": 0.8,
+          "reason": "The post discusses a specific event in North Korea without indicating any bias or focus on threats, diplomacy, humanitarian issues, or economic factors."
+        },
+        {
+          "frame": "THREAT",
+          "confidence": 0.8,
+          "reason": "The title suggests a focus on military dynamics, indicating potential danger or aggression."
+        },
+        {
+          "frame": "DIPLOMACY",
+          "confidence": 0.8,
+          "reason": "The title suggests a discussion about the political stance on Korean unification, indicating a diplomatic context."
+        },
+        {
+          "frame": "NEUTRAL",
+          "confidence": 0.8,
+          "reason": "The post discusses an agreement between China and South Korea regarding a missile defense system without indicating a clear bias towards threat, diplomacy, humanitarian issues, or economic factors."
+        },
+        {
+          "frame": "THREAT",
+          "confidence": 0.8,
+          "reason": "The post focuses on North Korea's submarine ballistic missile program, which indicates a military and nuclear threat."
+        },
+        {
+          "frame": "THREAT",
+          "confidence": 0.8,
+          "reason": "The title suggests a focus on missile tests, which implies a military and aggressive context."
+        }
+      ],
+      "period2": [
+        {
+          "frame": "HUMANITARIAN",
+          "confidence": 0.8,
+          "reason": "The post discusses South Koreans' feelings about military service, indicating a focus on human experiences and societal issues."
+        },
+        {
+          "frame": "DIPLOMACY",
+          "confidence": 0.8,
+          "reason": "The post discusses an agreement between leaders aimed at achieving a nuclear-free North Korea, indicating a focus on negotiations and cooperation."
+        },
+        {
+          "frame": "THREAT",
+          "confidence": 0.8,
+          "reason": "The mention of missile activities suggests a focus on military capabilities and potential aggression."
+        },
+        {
+          "frame": "ECONOMIC",
+          "confidence": 0.8,
+          "reason": "The post discusses trade-offs related to Korean reunification, indicating an economic focus."
+        },
+        {
+          "frame": "NEUTRAL",
+          "confidence": 0.8,
+          "reason": "The title suggests a factual exploration of the Korean Peninsula without a clear bias towards any specific theme."
+        },
+        {
+          "frame": "DIPLOMACY",
+          "confidence": 0.8,
+          "reason": "The post discusses potential negotiations regarding the shutdown of a nuclear complex and international inspections."
+        },
+        {
+          "frame": "DIPLOMACY",
+          "confidence": 0.8,
+          "reason": "The post discusses the potential for a formal alliance, which implies negotiations and cooperation among countries."
+        },
+        {
+          "frame": "NEUTRAL",
+          "confidence": 0.8,
+          "reason": "The title asks about the experiences of DPRK citizens without indicating a specific bias or focus on threats, diplomacy, humanitarian issues, or economic factors."
+        },
+        {
+          "frame": "DIPLOMACY",
+          "confidence": 0.8,
+          "reason": "The title suggests a visit that may involve discussions or cooperation between North Korea and China."
+        },
+        {
+          "frame": "NEUTRAL",
+          "confidence": 0.8,
+          "reason": "The post focuses on educational activities in North Korea without any clear bias or emphasis on threats, diplomacy, humanitarian issues, or economic factors."
+        }
+      ]
+    }
+  },
+  "framing_analysis_results": {
+    "p1_framing": {
+      "THREAT": 77.89473684210526,
+      "NEUTRAL": 18.684210526315788,
+      "PARTNER": 2.1052631578947367,
+      "VICTIM": 1.3157894736842104
+    },
+    "p2_framing": {
+      "THREAT": 53.68098159509203,
+      "NEUTRAL": 28.834355828220858,
+      "PARTNER": 12.883435582822086,
+      "VICTIM": 4.601226993865031
+    },
+    "chi2": 58.62364055027818,
+    "pvalue": 1.1567565471736406e-12,
+    "threat_change": -24.213755247013232,
+    "partner_change": 10.77817242492735
+  },
+  "gemini_framing_results": {
+    "method": "Gemini LLM (gemini-2.0-flash-exp) with relaxed safety",
+    "period1": {
+      "total_valid": 24,
+      "frame_distribution": {
+        "THREAT": 15,
+        "NEUTRAL": 4,
+        "DIPLOMACY": 3,
+        "HUMANITARIAN": 2
+      },
+      "threat_pct": 62.5,
+      "diplomacy_pct": 12.5
+    },
+    "period2": {
+      "total_valid": 9,
+      "frame_distribution": {
+        "NEUTRAL": 5,
+        "DIPLOMACY": 4
+      },
+      "threat_pct": 0.0,
+      "diplomacy_pct": 44.44444444444444
+    },
+    "comparison": {
+      "threat_change": -62.5,
+      "diplomacy_change": 31.944444444444443,
+      "chi2": 13.153439153439153,
+      "p_value": 0.004316265062734892
+    }
+  }
+}
