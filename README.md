@@ -81,3 +81,16 @@ We validated our primary classifier (GPT-4o-mini) against multiple alternative m
 | Claude Haiku 4.5 | 81.6% | 0.73 |
 | Llama 3.3 70B | 81.5% | 0.71 |
 | Llama 3.1 8B | 75.3% | 0.62 |
+
+## Data Filtering Notes
+
+**Important:** The `final_dataset.csv` contains **34,927 posts** (raw collection). 
+
+The paper's analyses use filtered subsets:
+- **Table 1 (DiD Analysis)**: 29,688 posts (after removing incomplete data)
+- **High-Confidence Subset**: 27,863 posts (confidence ≥ 0.9, 94% retention)
+
+To reproduce paper results, filter by:
+1. Valid period assignment
+2. Framing confidence ≥ 0.90 (for primary analyses)
+
