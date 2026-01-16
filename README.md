@@ -1,6 +1,5 @@
 # Asymmetric Persistence in Online Framing of North Korea
 
-Anonymized replication package for ICWSM 2025 submission.
 
 ## 📁 Repository Structure
 
